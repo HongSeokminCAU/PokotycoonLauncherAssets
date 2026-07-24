@@ -1,0 +1,96 @@
+{
+  "schemaVersion": 1,
+  "packId": "pixelmon-classic",
+  "version": "2026.07.25-pokotycoon-client-1.0.0",
+  "title": "Pokotycoon Client Pack",
+  "minecraftVersion": "1.21.1",
+  "neoForgeVersion": "21.1.230",
+  "mandatory": true,
+  "deleteUnlisted": false,
+  "sequence": 2026072501,
+  "issuedAtUtc": "2026-07-24T15:26:33Z",
+  "signatureAlgorithm": "",
+  "signature": "",
+  "changelog": [
+    "Added PokotycoonClient 1.0.0 and its MCEF runtime dependency.",
+    "Moved five redistributable client utilities to the Pokotycoon release.",
+    "Downloads JourneyMap 6.0.0-beta.54 from the official Modrinth CDN.",
+    "Selected the verified Pixelmon 9.3.16 client file already used by the Pokotycoon macOS test installation.",
+    "Removes only the exact verified legacy Pixelmon 9.3.14 file after Pixelmon 9.3.16 is installed.",
+    "Disabled general unlisted-file deletion for this transition."
+  ],
+  "mods": [
+    {
+      "path": "fast-ip-ping-v1.0.8-mc1.21.1-neoforge.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/fast-ip-ping-v1.0.8-mc1.21.1-neoforge.jar",
+      "sha256": "a94b965f7bacea49d9a6253866801cc9073ca5d38e184c7695d82b6a2536b707",
+      "size": 10332,
+      "required": true
+    },
+    {
+      "path": "iris-neoforge-1.8.12+mc1.21.1.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/iris-neoforge-1.8.12%2Bmc1.21.1.jar",
+      "sha256": "3e3f94d2d5cdcb8145c4385d521974aa2d8669b2cc212351f70cf06488182e83",
+      "size": 2438548,
+      "required": true
+    },
+    {
+      "path": "journeymap-neoforge-1.21.1-6.0.0-beta.54.jar",
+      "url": "https://cdn.modrinth.com/data/lfHFW1mp/versions/eFMHVijM/journeymap-neoforge-1.21.1-6.0.0-beta.54.jar",
+      "sha256": "121d84332dba09100ea8c654a8c5b75bdf1257639d00aca1210c5dc31f36cb38",
+      "size": 3546019,
+      "required": true
+    },
+    {
+      "path": "koreanpatch-neoforge-1.9.5+mc1.21.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/koreanpatch-neoforge-1.9.5%2Bmc1.21.jar",
+      "sha256": "687a07d0f7b07c05a89d46a9898195bf623f41092626b6cce744faea6effe79a",
+      "size": 310970,
+      "required": true
+    },
+    {
+      "path": "ModernUI-NeoForge-1.21.1-3.12.0.2-universal.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/ModernUI-NeoForge-1.21.1-3.12.0.2-universal.jar",
+      "sha256": "0df122a68ec82a2be9f1a041c33bbde133236cc5e13be5b7a48a08b22de8cae0",
+      "size": 25030667,
+      "required": true
+    },
+    {
+      "path": "Pixelmon-1.21.1-9.3.16-universal.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/Pixelmon-1.21.1-9.3.16-universal.jar",
+      "sha256": "8ef7b3fa9dfc121d30bedf1af2f0b4f5e6a76e8ad96e4a9def49066c78c140ba",
+      "size": 393746498,
+      "required": true
+    },
+    {
+      "path": "sodium-neoforge-0.6.13+mc1.21.1.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/sodium-neoforge-0.6.13%2Bmc1.21.1.jar",
+      "sha256": "7acd7af2ef75ec883a6872c17494ead65e38025151eb08a1d60e36d34377f403",
+      "size": 1162994,
+      "required": true
+    },
+    {
+      "path": "PokotycoonClient-1.0.0.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/PokotycoonClient-1.0.0.jar",
+      "sha256": "9af797a7bd185226877c6043de775a5e76e149c8a488f51306b12a46925ecb49",
+      "size": 29897291,
+      "required": true
+    },
+    {
+      "path": "MCEF-2.1.6-1.21.1.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/MCEF-2.1.6-1.21.1.jar",
+      "sha256": "0c7696216fa5cfee659d687475873c847a9a17cc8ce3a56119a69c946eeb8772",
+      "size": 215373,
+      "required": true
+    }
+  ],
+  "obsoleteMods": [
+    {
+      "path": "Pixelmon-1.21.1-9.3.14-universal.jar",
+      "sha256": "4402e5d03847b219eb931c8ea4ac187c9baae2bfdecf1d15e92c78589d390f5c",
+      "size": 392190454,
+      "replacedBy": "Pixelmon-1.21.1-9.3.16-universal.jar"
+    }
+  ],
+  "resourcePacks": []
+}

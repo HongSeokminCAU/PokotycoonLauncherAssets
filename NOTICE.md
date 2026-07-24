@@ -18,13 +18,13 @@ Pokotycoon does not claim ownership of those third-party rights. Pokotycoon is a
 
 This notice cannot grant any right to use third-party intellectual property. Any third-party material may be used only to the extent permitted by its right holder, its applicable terms, and applicable law.
 
-## 3. Pixelmon exclusion
+## 3. Pixelmon third-party material
 
-No original, unmodified, or modified Pixelmon JAR is included in this repository or its Release assets.
+The `pokotycoon-client-1.0.0` Release currently contains a user-supplied file named `Pixelmon-1.21.1-9.3.16-universal.jar`. Pixelmon and all Pokémon-related content in that file remain third-party material and are excluded from the Pokotycoon Asset License.
 
-This repository does not mirror Pixelmon and does not provide an alternate direct download for Pixelmon. Users must obtain Pixelmon through the [official Pixelmon website](https://pixelmonmod.com/) and comply with Pixelmon’s own terms.
+Its presence is not a claim that Pokotycoon owns Pixelmon, and it does not grant anyone permission to mirror, redistribute, modify, or reuse Pixelmon. The repository maintainer is responsible for confirming any required authorization and for removing the file if distribution is not permitted. Users must follow the terms imposed by Pixelmon and the applicable rights holders.
 
-A compatibility reference to Pixelmon does not imply that Pixelmon is owned by Pokotycoon or that Pokotycoon has permission to redistribute Pixelmon.
+A compatibility reference to Pixelmon does not imply affiliation, endorsement, ownership, or redistribution authority.
 
 ## 4. Other third-party components
 
@@ -46,6 +46,5 @@ If a third-party license conflicts with the Pokotycoon Asset License, that third
 - 포코타이쿤이 직접 만든 원본 부분만 포코타이쿤 권리자의 소유입니다.
 - Pokémon 관련 지식재산은 Nintendo, Creatures Inc., GAME FREAK inc., The Pokémon Company, The Pokémon Company International 등 각 권리자에게 있습니다.
 - 포코타이쿤은 이들 권리자와 무관한 비공식 팬 프로젝트이며 승인, 후원 또는 보증을 받지 않았습니다.
-- Pixelmon JAR은 원본과 수정본 모두 이 저장소 및 Release 자산에 포함하지 않습니다.
+- 현재 Release에는 사용자가 올린 Pixelmon 9.3.16 파일이 있으며, 이는 포코타이쿤 소유물이나 포코타이쿤 라이선스 적용 대상이 아닙니다. 해당 파일의 존재는 재배포 권한을 주장하거나 제3자에게 부여하지 않습니다.
 - Minecraft, NeoForge, Pixelmon과 그 밖의 제3자 구성요소는 각각의 라이선스와 이용조건을 따릅니다.
-

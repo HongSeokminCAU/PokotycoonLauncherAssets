@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.07.25-pokotycoon-client-1.0.0-r2",
+  "version": "2026.07.25-pokotycoon-client-1.0.0-r3-no-modernui",
   "title": "Pokotycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026072502,
-  "issuedAtUtc": "2026-07-25T08:55:14Z",
+  "sequence": 2026072503,
+  "issuedAtUtc": "2026-07-25T09:53:43Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Removed ModernUI from the required client pack; the launcher removes only the exact previously managed file.",
     "Updated the PokotycoonClient bundled WebGUI and compatibility hooks.",
     "Added PokotycoonClient 1.0.0 and its MCEF runtime dependency.",
     "Moved five redistributable client utilities to the Pokotycoon release.",
@@ -47,13 +48,6 @@
       "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/koreanpatch-neoforge-1.9.5%2Bmc1.21.jar",
       "sha256": "687a07d0f7b07c05a89d46a9898195bf623f41092626b6cce744faea6effe79a",
       "size": 310970,
-      "required": true
-    },
-    {
-      "path": "ModernUI-NeoForge-1.21.1-3.12.0.2-universal.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/ModernUI-NeoForge-1.21.1-3.12.0.2-universal.jar",
-      "sha256": "0df122a68ec82a2be9f1a041c33bbde133236cc5e13be5b7a48a08b22de8cae0",
-      "size": 25030667,
       "required": true
     },
     {
@@ -96,6 +90,12 @@
       "path": "PokotycoonClient-1.0.0.jar",
       "sha256": "9af797a7bd185226877c6043de775a5e76e149c8a488f51306b12a46925ecb49",
       "size": 29897291,
+      "replacedBy": "PokotycoonClient-1.0.0-r2.jar"
+    },
+    {
+      "path": "ModernUI-NeoForge-1.21.1-3.12.0.2-universal.jar",
+      "sha256": "0df122a68ec82a2be9f1a041c33bbde133236cc5e13be5b7a48a08b22de8cae0",
+      "size": 25030667,
       "replacedBy": "PokotycoonClient-1.0.0-r2.jar"
     }
   ],

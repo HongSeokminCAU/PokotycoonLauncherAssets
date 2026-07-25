@@ -92,5 +92,15 @@
       "replacedBy": "Pixelmon-1.21.1-9.3.16-universal.jar"
     }
   ],
-  "resourcePacks": []
+  "resourcePacks": [
+    {
+      "path": "PokotycoonResources.zip",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/PokotycoonResources.zip",
+      "sha256": "a8cbbe02eac4b781a70cdd21653c0afb4032b8bf820f4a752e987660528b4bb0",
+      "size": 13041287,
+      "required": true,
+      "alwaysSelected": true,
+      "incompatible": false
+    }
+  ]
 }

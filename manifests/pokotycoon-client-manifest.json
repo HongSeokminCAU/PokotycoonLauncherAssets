@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.07.25-pokotycoon-client-1.0.0-r4-preserve-modernui",
+  "version": "2026.07.26-pokotycoon-client-1.0.0-r5-webshop",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026072504,
-  "issuedAtUtc": "2026-07-25T11:55:44Z",
+  "sequence": 2026072601,
+  "issuedAtUtc": "2026-07-26T14:34:25Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated the bundled PokoTycoon Webshop content while preserving the verified MCEF compatibility layer.",
     "ModernUI is not distributed by PokoTycoon; existing local copies are left untouched.",
     "Updated the PokoTycoonClient bundled WebGUI and compatibility hooks.",
     "Added PokoTycoonClient 1.0.0 and its MCEF runtime dependency.",
@@ -65,10 +66,10 @@
       "required": true
     },
     {
-      "path": "PokotycoonClient-1.0.0-r2.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/PokotycoonClient-1.0.0-r2.jar",
-      "sha256": "e2a9bac3c20390c99a0a0132b64f1e2327906b78e2b5c794a705ca4a22813a8e",
-      "size": 29982164,
+      "path": "PokotycoonClient-1.0.0-r3.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/PokotycoonClient-1.0.0-r3.jar",
+      "sha256": "efb60bd02bc06ffa9cc68dc7d345cd7bc31532793014b0bce5d1f8b9c77d176a",
+      "size": 29965729,
       "required": true
     },
     {
@@ -90,7 +91,13 @@
       "path": "PokotycoonClient-1.0.0.jar",
       "sha256": "9af797a7bd185226877c6043de775a5e76e149c8a488f51306b12a46925ecb49",
       "size": 29897291,
-      "replacedBy": "PokotycoonClient-1.0.0-r2.jar"
+      "replacedBy": "PokotycoonClient-1.0.0-r3.jar"
+    },
+    {
+      "path": "PokotycoonClient-1.0.0-r2.jar",
+      "sha256": "e2a9bac3c20390c99a0a0132b64f1e2327906b78e2b5c794a705ca4a22813a8e",
+      "size": 29982164,
+      "replacedBy": "PokotycoonClient-1.0.0-r3.jar"
     }
   ],
   "resourcePacks": [

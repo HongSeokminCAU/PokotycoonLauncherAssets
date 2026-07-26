@@ -1,17 +1,19 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.07.27-pokotycoon-client-1.0.2-webshop",
+  "version": "2026.07.27-pokotycoon-client-1.0.2-skin-gacha",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026072702,
-  "issuedAtUtc": "2026-07-26T16:21:50Z",
+  "sequence": 2026072703,
+  "issuedAtUtc": "2026-07-26T16:42:00Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Removed the Skin Palette purchase limit and hid monthly-count text when the allowance is unlimited.",
+    "Moved the 10% Dream Ability Scroll to the Gacha category at a price of 300,000 coins.",
     "Renamed EV Tuner to 노력치 세팅기 and removed the Good Rod from the bundled PokoTycoon Webshop.",
     "Preserved the Dream Ability Scroll, verified MCEF compatibility layer, and all existing client utilities.",
     "Added the 300,000 coin Dream Ability Scroll card to the bundled PokoTycoon Webshop.",
@@ -71,8 +73,8 @@
     {
       "path": "PokotycoonClient-1.0.2.jar",
       "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/PokotycoonClient-1.0.2.jar",
-      "sha256": "0491e3a41aa85d9bc8347b8e04dd4fbac13969212b2dd7464abe052c31a53f02",
-      "size": 29995680,
+      "sha256": "e357bc24373de7b7b64ea06edb19658e18b259d4a23e2f33b0b40c9c395ff759",
+      "size": 29995575,
       "required": true
     },
     {

@@ -1,25 +1,26 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.07.26-pokotycoon-client-1.0.0-r5-webshop",
+  "version": "2026.07.27-pokotycoon-client-1.0.1-hidden-ability",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026072601,
-  "issuedAtUtc": "2026-07-26T14:34:25Z",
+  "sequence": 2026072701,
+  "issuedAtUtc": "2026-07-26T15:36:45Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
-    "Updated the bundled PokoTycoon Webshop content while preserving the verified MCEF compatibility layer.",
+    "Added the 300,000 coin Dream Ability Scroll card to the bundled PokoTycoon Webshop.",
+    "Preserved the verified MCEF compatibility layer and all existing client utilities.",
     "ModernUI is not distributed by PokoTycoon; existing local copies are left untouched.",
     "Updated the PokoTycoonClient bundled WebGUI and compatibility hooks.",
-    "Added PokoTycoonClient 1.0.0 and its MCEF runtime dependency.",
+    "Added PokoTycoonClient and its MCEF runtime dependency.",
     "Moved five redistributable client utilities to the PokoTycoon release.",
     "Downloads JourneyMap 6.0.0-beta.54 from the official Modrinth CDN.",
     "Selected the verified Pixelmon 9.3.16 client file already used by the PokoTycoon macOS test installation.",
-    "Removes only the exact verified legacy Pixelmon 9.3.14 file after Pixelmon 9.3.16 is installed.",
+    "Removes only exact verified superseded client files after their replacement is installed.",
     "Disabled general unlisted-file deletion for this transition."
   ],
   "mods": [
@@ -66,10 +67,10 @@
       "required": true
     },
     {
-      "path": "PokotycoonClient-1.0.0-r3.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/PokotycoonClient-1.0.0-r3.jar",
-      "sha256": "efb60bd02bc06ffa9cc68dc7d345cd7bc31532793014b0bce5d1f8b9c77d176a",
-      "size": 29965729,
+      "path": "PokotycoonClient-1.0.1.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/PokotycoonClient-1.0.1.jar",
+      "sha256": "7d96ace5de3e815e53ae77509cbd7231c9f90a64a2fbcd2a23ae1abdda5fc934",
+      "size": 29995695,
       "required": true
     },
     {
@@ -91,13 +92,19 @@
       "path": "PokotycoonClient-1.0.0.jar",
       "sha256": "9af797a7bd185226877c6043de775a5e76e149c8a488f51306b12a46925ecb49",
       "size": 29897291,
-      "replacedBy": "PokotycoonClient-1.0.0-r3.jar"
+      "replacedBy": "PokotycoonClient-1.0.1.jar"
     },
     {
       "path": "PokotycoonClient-1.0.0-r2.jar",
       "sha256": "e2a9bac3c20390c99a0a0132b64f1e2327906b78e2b5c794a705ca4a22813a8e",
       "size": 29982164,
-      "replacedBy": "PokotycoonClient-1.0.0-r3.jar"
+      "replacedBy": "PokotycoonClient-1.0.1.jar"
+    },
+    {
+      "path": "PokotycoonClient-1.0.0-r3.jar",
+      "sha256": "efb60bd02bc06ffa9cc68dc7d345cd7bc31532793014b0bce5d1f8b9c77d176a",
+      "size": 29965729,
+      "replacedBy": "PokotycoonClient-1.0.1.jar"
     }
   ],
   "resourcePacks": [

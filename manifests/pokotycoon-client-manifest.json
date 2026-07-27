@@ -1,17 +1,19 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.07.27-pokotycoon-client-1.0.2-skin-gacha",
+  "version": "2026.07.27-pokotycoon-client-1.0.3-webgui-pixelmon-fixes",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026072703,
-  "issuedAtUtc": "2026-07-26T16:42:00Z",
+  "sequence": 2026072704,
+  "issuedAtUtc": "2026-07-27T06:51:10Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated PokotycoonClient to 1.0.3 with virtual HTTPS WebGUI backed by JAR-local resources.",
+    "Updated the Pixelmon 9.3.16 bug-fix build while preserving its original launcher filename.",
     "Removed the Skin Palette purchase limit and hid monthly-count text when the allowance is unlimited.",
     "Moved the 10% Dream Ability Scroll to the Gacha category at a price of 300,000 coins.",
     "Renamed EV Tuner to 노력치 세팅기 and removed the Good Rod from the bundled PokoTycoon Webshop.",
@@ -58,9 +60,9 @@
     },
     {
       "path": "Pixelmon-1.21.1-9.3.16-universal.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/Pixelmon-1.21.1-9.3.16-universal.jar",
-      "sha256": "8ef7b3fa9dfc121d30bedf1af2f0b4f5e6a76e8ad96e4a9def49066c78c140ba",
-      "size": 393746498,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.3/Pixelmon-1.21.1-9.3.16-universal.jar",
+      "sha256": "89c5804c0aa6e2ea454305491f829c67d231a74eab6f76f81b38b1d79dde213d",
+      "size": 393747167,
       "required": true
     },
     {
@@ -71,10 +73,10 @@
       "required": true
     },
     {
-      "path": "PokotycoonClient-1.0.2.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/PokotycoonClient-1.0.2.jar",
-      "sha256": "e357bc24373de7b7b64ea06edb19658e18b259d4a23e2f33b0b40c9c395ff759",
-      "size": 29995575,
+      "path": "PokotycoonClient-1.0.3.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.3/PokotycoonClient-1.0.3.jar",
+      "sha256": "71494ace5c4cc4dc909a45ba39841da724fa05a4e02f6c3f32745f2502ae8a1d",
+      "size": 30011828,
       "required": true
     },
     {
@@ -96,25 +98,31 @@
       "path": "PokotycoonClient-1.0.0.jar",
       "sha256": "9af797a7bd185226877c6043de775a5e76e149c8a488f51306b12a46925ecb49",
       "size": 29897291,
-      "replacedBy": "PokotycoonClient-1.0.2.jar"
+      "replacedBy": "PokotycoonClient-1.0.3.jar"
     },
     {
       "path": "PokotycoonClient-1.0.0-r2.jar",
       "sha256": "e2a9bac3c20390c99a0a0132b64f1e2327906b78e2b5c794a705ca4a22813a8e",
       "size": 29982164,
-      "replacedBy": "PokotycoonClient-1.0.2.jar"
+      "replacedBy": "PokotycoonClient-1.0.3.jar"
     },
     {
       "path": "PokotycoonClient-1.0.0-r3.jar",
       "sha256": "efb60bd02bc06ffa9cc68dc7d345cd7bc31532793014b0bce5d1f8b9c77d176a",
       "size": 29965729,
-      "replacedBy": "PokotycoonClient-1.0.2.jar"
+      "replacedBy": "PokotycoonClient-1.0.3.jar"
     },
     {
       "path": "PokotycoonClient-1.0.1.jar",
       "sha256": "7d96ace5de3e815e53ae77509cbd7231c9f90a64a2fbcd2a23ae1abdda5fc934",
       "size": 29995695,
-      "replacedBy": "PokotycoonClient-1.0.2.jar"
+      "replacedBy": "PokotycoonClient-1.0.3.jar"
+    },
+    {
+      "path": "PokotycoonClient-1.0.2.jar",
+      "sha256": "e357bc24373de7b7b64ea06edb19658e18b259d4a23e2f33b0b40c9c395ff759",
+      "size": 29995575,
+      "replacedBy": "PokotycoonClient-1.0.3.jar"
     }
   ],
   "resourcePacks": [

@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.07.27-pokotycoon-client-1.0.3-pixelmon-r11",
+  "version": "2026.07.27-pokotycoon-client-1.0.3-pixelmon-r14",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026072705,
-  "issuedAtUtc": "2026-07-27T10:07:15Z",
+  "sequence": 2026072706,
+  "issuedAtUtc": "2026-07-27T13:34:34Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated Pixelmon 9.3.16 to the verified R14 experience and battle-task guard build while preserving its original launcher filename.",
     "Updated Pixelmon 9.3.16 to the verified R11 SwitchOutTask cleanup build while preserving its original launcher filename.",
     "Updated PokotycoonClient to 1.0.3 with virtual HTTPS WebGUI backed by JAR-local resources.",
     "Updated the Pixelmon 9.3.16 bug-fix build while preserving its original launcher filename.",
@@ -61,9 +62,9 @@
     },
     {
       "path": "Pixelmon-1.21.1-9.3.16-universal.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pixelmon-r11-20260727/Pixelmon-1.21.1-9.3.16-universal.jar",
-      "sha256": "f984103df8e339769e3610cf5b5336edf8e4817567b3387d3d02a999f45efff7",
-      "size": 393747167,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pixelmon-r14-20260727/Pixelmon-1.21.1-9.3.16-universal.jar",
+      "sha256": "c0687ce5691669a892cd3a7f685e15af70ab4821ed2e1350cade19392c4e3cb5",
+      "size": 393747133,
       "required": true
     },
     {

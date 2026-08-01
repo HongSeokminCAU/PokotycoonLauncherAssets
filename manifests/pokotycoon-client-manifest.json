@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.01-pokotycoon-client-1.0.6-dohwa-atlasfix",
+  "version": "2026.08.02-pokotycoon-client-1.0.6-webgui-island-guide",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026080103,
-  "issuedAtUtc": "2026-08-01T08:05:02Z",
+  "sequence": 2026080201,
+  "issuedAtUtc": "2026-08-01T16:14:18Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated the bundled WebGUI island upgrade guide to 50×50, 100×100, 200×200, and 300×300, and corrected the first upgrade price to 2,000,000 coins.",
     "Updated PokotycoonClient 1.0.6 to register the Dohwa Alolan Ninetales sprite directly in the block texture atlas; the icon display was verified in game.",
     "Updated PokotycoonClient 1.0.6 to register the Dohwa Ninetales sprite atlas anchor so PixelBook renders the custom icon as a flat sprite.",
     "Updated PokotycoonClient to 1.0.6 with the client-side evolution wait correction and Dohwa event skin resources while preserving every other launcher asset.",
@@ -84,9 +85,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.6.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.6-atlasfix-20260801/PokotycoonClient-1.0.6.jar",
-      "sha256": "854ece9ff04337abedd10cde3b7a3da39e28566c73369ce6227aa4eccf5748ba",
-      "size": 30124957,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.6-webgui-island-guide-20260802/PokotycoonClient-1.0.6.jar",
+      "sha256": "1c05087d631de4826a150965b2dcbb8e857837cb2081abd587d28cf95ec9fd8b",
+      "size": 30138010,
       "required": true
     },
     {

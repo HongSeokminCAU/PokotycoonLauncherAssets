@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.01-pokotycoon-client-1.0.6-dohwa-iconfix",
+  "version": "2026.08.01-pokotycoon-client-1.0.6-dohwa-atlasfix",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026080102,
-  "issuedAtUtc": "2026-08-01T07:16:32Z",
+  "sequence": 2026080103,
+  "issuedAtUtc": "2026-08-01T08:05:02Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated PokotycoonClient 1.0.6 to register the Dohwa Alolan Ninetales sprite directly in the block texture atlas; the icon display was verified in game.",
     "Updated PokotycoonClient 1.0.6 to register the Dohwa Ninetales sprite atlas anchor so PixelBook renders the custom icon as a flat sprite.",
     "Updated PokotycoonClient to 1.0.6 with the client-side evolution wait correction and Dohwa event skin resources while preserving every other launcher asset.",
     "Updated PokotycoonClient to 1.0.5 so Pixelmon chair mounts remain valid down to each dimension's minimum build height, including Overworld Y=-64.",
@@ -83,9 +84,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.6.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.6-iconfix-20260801/PokotycoonClient-1.0.6.jar",
-      "sha256": "0684be8259d8a8b428bb0792e79ad0463b56a44256042ab3f70ec4b5e28c99c0",
-      "size": 30125931,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.6-atlasfix-20260801/PokotycoonClient-1.0.6.jar",
+      "sha256": "854ece9ff04337abedd10cde3b7a3da39e28566c73369ce6227aa4eccf5748ba",
+      "size": 30124957,
       "required": true
     },
     {

@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.02-pokotycoon-client-1.0.7-island-ranking",
+  "version": "2026.08.11-pokotycoon-client-1.0.7-afk-menu",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026080202,
-  "issuedAtUtc": "2026-08-02T05:14:27Z",
+  "sequence": 2026081101,
+  "issuedAtUtc": "2026-08-11T09:13:30Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Added the client-side 잠수 button to the Warp menu; it sends /잠수 through the existing WebGUI command bridge, with responsive placement for desktop and smaller windows.",
     "Updated PokotycoonClient to 1.0.7 with the bundled island ranking WebGUI: 30-minute refresh, one-line descriptions, consistent recommendation labels, and recommendation/member/creation-date tie-breaking.",
     "Updated the bundled WebGUI island upgrade guide to 50×50, 100×100, 200×200, and 300×300, and corrected the first upgrade price to 2,000,000 coins.",
     "Updated PokotycoonClient 1.0.6 to register the Dohwa Alolan Ninetales sprite directly in the block texture atlas; the icon display was verified in game.",
@@ -86,9 +87,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.7.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.7-island-ranking-20260802/PokotycoonClient-1.0.7.jar",
-      "sha256": "a090ee7c1468a584c5b60a3e423da8b38de1b11b5a1ef15a76adce388cfec386",
-      "size": 30138081,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.7-afk-menu-20260811/PokotycoonClient-1.0.7.jar",
+      "sha256": "905315444a7583d6ddff95424ce413e14bacf6439c28cf8a54428eb414d4b6db",
+      "size": 30237745,
       "required": true
     },
     {

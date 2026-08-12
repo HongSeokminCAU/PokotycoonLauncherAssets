@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.12-pokotycoon-client-1.0.7-afk-command-fix",
+  "version": "2026.08.12-pokotycoon-client-1.0.7-resources-update",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026081202,
-  "issuedAtUtc": "2026-08-12T06:13:56Z",
+  "sequence": 2026081203,
+  "issuedAtUtc": "2026-08-12T06:30:13Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated PokotycoonResources.zip to the resource pack currently used by the Pokotycoon Minecraft client, including the latest Pixelmon and Pokotycoon resource additions.",
     "Fixed the WebGUI 잠수 button so its exact /잠수 command passes the client security allowlist; all other bundled modules and assets are preserved.",
     "Updated the bundled Pokotykon Skin client module to 0.4.10 with safe Pixelmon palette fallback, on-demand PNG delivery, SHA-256 cache reuse, and live texture refresh while preserving protocol 11.",
     "Added the client-side 잠수 button to the Warp menu; it sends /잠수 through the existing WebGUI command bridge, with responsive placement for desktop and smaller windows.",
@@ -167,9 +168,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/PokotycoonResources.zip",
-      "sha256": "a8cbbe02eac4b781a70cdd21653c0afb4032b8bf820f4a752e987660528b4bb0",
-      "size": 13041287,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-20260812/PokotycoonResources.zip",
+      "sha256": "c43c64d317fbcae7da28b64ef3f71b2662b5d411990f3524512ff7bc0162c685",
+      "size": 13274665,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

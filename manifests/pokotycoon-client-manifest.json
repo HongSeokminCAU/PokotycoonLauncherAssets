@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.11-pokotycoon-client-1.0.7-afk-menu",
+  "version": "2026.08.12-pokotycoon-client-1.0.7-skin-fallback-0.4.10",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026081101,
-  "issuedAtUtc": "2026-08-11T09:13:30Z",
+  "sequence": 2026081201,
+  "issuedAtUtc": "2026-08-12T05:09:51Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated the bundled Pokotykon Skin client module to 0.4.10 with safe Pixelmon palette fallback, on-demand PNG delivery, SHA-256 cache reuse, and live texture refresh while preserving protocol 11.",
     "Added the client-side 잠수 button to the Warp menu; it sends /잠수 through the existing WebGUI command bridge, with responsive placement for desktop and smaller windows.",
     "Updated PokotycoonClient to 1.0.7 with the bundled island ranking WebGUI: 30-minute refresh, one-line descriptions, consistent recommendation labels, and recommendation/member/creation-date tie-breaking.",
     "Updated the bundled WebGUI island upgrade guide to 50×50, 100×100, 200×200, and 300×300, and corrected the first upgrade price to 2,000,000 coins.",
@@ -87,9 +88,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.7.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.7-afk-menu-20260811/PokotycoonClient-1.0.7.jar",
-      "sha256": "905315444a7583d6ddff95424ce413e14bacf6439c28cf8a54428eb414d4b6db",
-      "size": 30237745,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.7-skin-fallback-0.4.10-20260812/PokotycoonClient-1.0.7.jar",
+      "sha256": "f0df521c0c74b4155b8b926ce7133abf2a0f0f48d52503433e922ca12c0b1e4c",
+      "size": 30239910,
       "required": true
     },
     {

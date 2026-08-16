@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.16-pokotycoon-client-1.0.7-skin-0.4.11",
+  "version": "2026.08.16-pokotycoon-client-1.0.7-resources-tools-update",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026081601,
-  "issuedAtUtc": "2026-08-16T04:22:59Z",
+  "sequence": 2026081602,
+  "issuedAtUtc": "2026-08-16T05:43:42Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated PokotycoonResources.zip to the resource pack currently selected in both local clients, including 16 starter-tool/item model refinements and 21 new polished starter-tool textures.",
     "Updated the bundled Pokotykon Skin client module to 0.4.11 with safe form fallback slots, post-battle UGC palette restoration, a 10,000 DP-Cash palette price, and a 2,000 DP-Cash creator royalty while preserving protocol 11.",
     "Updated PokotycoonResources.zip to the resource pack currently used by the Pokotycoon Minecraft client, including the latest Pixelmon and Pokotycoon resource additions.",
     "Fixed the WebGUI 잠수 button so its exact /잠수 command passes the client security allowlist; all other bundled modules and assets are preserved.",
@@ -169,9 +170,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-20260812/PokotycoonResources.zip",
-      "sha256": "c43c64d317fbcae7da28b64ef3f71b2662b5d411990f3524512ff7bc0162c685",
-      "size": 13274665,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-20260816/PokotycoonResources.zip",
+      "sha256": "c9a096374ad61fdf640273a7d78611630427ddfe0d78310ec0d9f2112b1e315e",
+      "size": 13310879,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

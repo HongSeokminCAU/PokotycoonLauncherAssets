@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.19-pokotycoon-client-1.0.7-resources-auction-update",
+  "version": "2026.08.21-pokotycoon-client-1.0.7-webgui-battletower",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026081901,
-  "issuedAtUtc": "2026-08-18T15:45:51Z",
+  "sequence": 2026082101,
+  "issuedAtUtc": "2026-08-21T14:32:48Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated the bundled WebGUI with the latest local UI assets and changed the Battle Tower button to request the exact /배틀타워 command through matching client/server security allowlists; all other PokotycoonClient modules are preserved.",
     "Updated PokotycoonResources.zip with the auction house home, category, history, expired, personal listing, purchase, recovery, sale, navigation-state, and page-number resources while preserving every existing resource.",
     "Updated PokotycoonResources.zip to the resource pack currently selected in both local clients, including 16 starter-tool/item model refinements and 21 new polished starter-tool textures.",
     "Updated the bundled Pokotykon Skin client module to 0.4.11 with safe form fallback slots, post-battle UGC palette restoration, a 10,000 DP-Cash palette price, and a 2,000 DP-Cash creator royalty while preserving protocol 11.",
@@ -93,9 +94,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.7.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.7-skin-0.4.11-20260816/PokotycoonClient-1.0.7.jar",
-      "sha256": "5525aa9f31941842f431859410ef753ea0cdd95485bfc097bf89c4a562f4b0e2",
-      "size": 30240758,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.7-webgui-battletower-20260821/PokotycoonClient-1.0.7.jar",
+      "sha256": "d66fae9ea7f759115bc99993da2ca0fb5dd32840fea7eff9409304c3311fc1b0",
+      "size": 30568481,
       "required": true
     },
     {
@@ -180,3 +181,4 @@
     }
   ]
 }
+

@@ -1,17 +1,19 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.21-pokotycoon-client-1.0.7-webgui-battletower",
+  "version": "2026.08.24-pokotycoon-client-1.0.9-resources",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026082101,
-  "issuedAtUtc": "2026-08-21T14:32:48Z",
+  "sequence": 2026082401,
+  "issuedAtUtc": "2026-08-24T05:00:36Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated PokotycoonClient to 1.0.9 with the client-only Poko Pixelmon Fix 0.4.2 boss-drop screen recovery while preserving Pokotykon Skin 0.4.11, the current WebGUI including /잠수 and /배틀타워, PokeGacha, and Pokotykon Transform.",
+    "Updated PokotycoonResources.zip with 38 new starter-tool and fishing-rod resources and 16 item-model updates while preserving every file from the previous resource pack.",
     "Updated the bundled WebGUI with the latest local UI assets and changed the Battle Tower button to request the exact /배틀타워 command through matching client/server security allowlists; all other PokotycoonClient modules are preserved.",
     "Updated PokotycoonResources.zip with the auction house home, category, history, expired, personal listing, purchase, recovery, sale, navigation-state, and page-number resources while preserving every existing resource.",
     "Updated PokotycoonResources.zip to the resource pack currently selected in both local clients, including 16 starter-tool/item model refinements and 21 new polished starter-tool textures.",
@@ -93,10 +95,10 @@
       "required": true
     },
     {
-      "path": "PokotycoonClient-1.0.7.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.7-webgui-battletower-20260821/PokotycoonClient-1.0.7.jar",
-      "sha256": "d66fae9ea7f759115bc99993da2ca0fb5dd32840fea7eff9409304c3311fc1b0",
-      "size": 30568481,
+      "path": "PokotycoonClient-1.0.9.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.9-20260824/PokotycoonClient-1.0.9.jar",
+      "sha256": "1b43e24cd13114cba5a65d404c5f7f365d167237da587f70139defcc11f0207e",
+      "size": 30576151,
       "required": true
     },
     {
@@ -118,67 +120,72 @@
       "path": "PokotycoonClient-1.0.0.jar",
       "sha256": "9af797a7bd185226877c6043de775a5e76e149c8a488f51306b12a46925ecb49",
       "size": 29897291,
-      "replacedBy": "PokotycoonClient-1.0.7.jar"
+      "replacedBy": "PokotycoonClient-1.0.9.jar"
     },
     {
       "path": "PokotycoonClient-1.0.0-r2.jar",
       "sha256": "e2a9bac3c20390c99a0a0132b64f1e2327906b78e2b5c794a705ca4a22813a8e",
       "size": 29982164,
-      "replacedBy": "PokotycoonClient-1.0.7.jar"
+      "replacedBy": "PokotycoonClient-1.0.9.jar"
     },
     {
       "path": "PokotycoonClient-1.0.0-r3.jar",
       "sha256": "efb60bd02bc06ffa9cc68dc7d345cd7bc31532793014b0bce5d1f8b9c77d176a",
       "size": 29965729,
-      "replacedBy": "PokotycoonClient-1.0.7.jar"
+      "replacedBy": "PokotycoonClient-1.0.9.jar"
     },
     {
       "path": "PokotycoonClient-1.0.1.jar",
       "sha256": "7d96ace5de3e815e53ae77509cbd7231c9f90a64a2fbcd2a23ae1abdda5fc934",
       "size": 29995695,
-      "replacedBy": "PokotycoonClient-1.0.7.jar"
+      "replacedBy": "PokotycoonClient-1.0.9.jar"
     },
     {
       "path": "PokotycoonClient-1.0.2.jar",
       "sha256": "e357bc24373de7b7b64ea06edb19658e18b259d4a23e2f33b0b40c9c395ff759",
       "size": 29995575,
-      "replacedBy": "PokotycoonClient-1.0.7.jar"
+      "replacedBy": "PokotycoonClient-1.0.9.jar"
     },
     {
       "path": "PokotycoonClient-1.0.3.jar",
       "sha256": "71494ace5c4cc4dc909a45ba39841da724fa05a4e02f6c3f32745f2502ae8a1d",
       "size": 30011828,
-      "replacedBy": "PokotycoonClient-1.0.7.jar"
+      "replacedBy": "PokotycoonClient-1.0.9.jar"
     },
     {
       "path": "PokotycoonClient-1.0.4.jar",
       "sha256": "e55de05f761b4c01a1d866f60f2438abaafe09ec966778be4de7b95d281860dd",
       "size": 30025357,
-      "replacedBy": "PokotycoonClient-1.0.7.jar"
+      "replacedBy": "PokotycoonClient-1.0.9.jar"
     },
     {
       "path": "PokotycoonClient-1.0.5.jar",
       "sha256": "7297f54f46344920a1db46db169d9f10911105cdfbfc8b4be956fe6bb39d9e7c",
       "size": 30026470,
-      "replacedBy": "PokotycoonClient-1.0.7.jar"
+      "replacedBy": "PokotycoonClient-1.0.9.jar"
     },
     {
       "path": "PokotycoonClient-1.0.6.jar",
       "sha256": "1c05087d631de4826a150965b2dcbb8e857837cb2081abd587d28cf95ec9fd8b",
       "size": 30138010,
-      "replacedBy": "PokotycoonClient-1.0.7.jar"
+      "replacedBy": "PokotycoonClient-1.0.9.jar"
+    },
+    {
+      "path": "PokotycoonClient-1.0.7.jar",
+      "sha256": "d66fae9ea7f759115bc99993da2ca0fb5dd32840fea7eff9409304c3311fc1b0",
+      "size": 30568481,
+      "replacedBy": "PokotycoonClient-1.0.9.jar"
     }
   ],
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-20260819/PokotycoonResources.zip",
-      "sha256": "7e94b1a65c4fade3fa7daabe5a89c6e8d33ca343e5960d29078362ff9bea051f",
-      "size": 13246953,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-20260824/PokotycoonResources.zip",
+      "sha256": "038fe5e83550efeff2de2204d82172261b9e9ed4e20485c117aa4420f688d348",
+      "size": 13190710,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false
     }
   ]
 }
-

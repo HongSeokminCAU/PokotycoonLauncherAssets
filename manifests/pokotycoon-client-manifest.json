@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.31-pokotycoon-client-1.0.9-betterhud-unified-font",
+  "version": "2026.08.31-pokotycoon-client-1.0.9-betterhud-unified-font-fishing-models",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026083104,
-  "issuedAtUtc": "2026-08-31T05:31:32Z",
+  "sequence": 2026083105,
+  "issuedAtUtc": "2026-08-31T05:50:09Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated exactly ten Poko fishing-rod model files for Altaria, Chi-Yu, Fuecoco, Magby, and Rowlet in normal and cast states while preserving the unified BetterHud font resources and every unrelated asset.",
     "Unified the BetterHud 전체 채팅, 대기중, timer, and numeric HUD text under the bundled TTTogether font by disabling the default bitmap merge; all existing resources and corrected fishing-rod mappings are preserved.",
     "Applied the corrected fishing-rod custom-model-data mappings while preserving the currently deployed BetterHud common and wild HUD font mappings and status textures.",
     "Added PokoCosmetics tool and fishing-rod models while preserving the managed pack filename, pack ID, metadata, and unrelated assets.",
@@ -184,9 +185,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-betterhud-font-20260831/PokotycoonResources.zip",
-      "sha256": "42cb39771d766ea0b8d75b5a7b15cc2115cfcee6f39fad891336083170141f7a",
-      "size": 14682817,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-fishing-models-20260831/PokotycoonResources.zip",
+      "sha256": "c11dbb693cc82f6f49cb1ef0d2b89f1ef85658149d07c7258dea80f9381e6668",
+      "size": 14683542,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

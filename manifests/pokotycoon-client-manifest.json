@@ -1,18 +1,19 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.31-pokotycoon-client-1.0.9-betterhud-dual-font",
+  "version": "2026.08.31-pokotycoon-client-1.0.9-cosmetics-cmd-fix-betterhud",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026083102,
-  "issuedAtUtc": "2026-08-31T04:59:40Z",
+  "sequence": 2026083103,
+  "issuedAtUtc": "2026-08-31T05:09:48Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
-    "Updated PokotycoonResources.zip with conflict-free BetterHud font mappings for common servers and wild servers, including the chat-channel and legendary-timer HUD resources.",
+    "Applied the corrected fishing-rod custom-model-data mappings while preserving the currently deployed BetterHud common and wild HUD font mappings and status textures.",
+    "Added PokoCosmetics tool and fishing-rod models while preserving the managed pack filename, pack ID, metadata, and unrelated assets.",
     "Updated PokotycoonResources.zip with BetterHud status images, conflict-safe Sea/Fire/Sky character fishing rods, refreshed Altaria and Magikarp assets, and the PokoCosmetics Chi-Yu hardware update while preserving existing Pixelmon rod mappings and all prior resources.",
     "Updated PokotycoonClient to 1.0.9 with the client-only Poko Pixelmon Fix 0.4.2 boss-drop screen recovery while preserving Pokotykon Skin 0.4.11, the current WebGUI including /잠수 and /배틀타워, PokeGacha, and Pokotykon Transform.",
     "Updated PokotycoonResources.zip with 38 new starter-tool and fishing-rod resources and 16 item-model updates while preserving every file from the previous resource pack.",
@@ -182,9 +183,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-betterhud-20260831/PokotycoonResources.zip",
-      "sha256": "4e1ed8c03251f00807d802eded7e54bdf190c9173be0cb70e236c58d04120532",
-      "size": 14641798,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-cmdfix-betterhud-20260831/PokotycoonResources.zip",
+      "sha256": "3c2b4da42701f4a573a870bdf9f8f3cd56db6c0f07f7f48427b51f9ae31b56d8",
+      "size": 14641849,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

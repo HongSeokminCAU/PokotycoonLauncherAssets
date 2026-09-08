@@ -1,17 +1,19 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.08.31-pokotycoon-client-1.0.9-betterhud-unified-font-fishing-models",
+  "version": "2026.09.08-pokotycoon-client-1.0.9-cosmetics-mew-mega-rc1",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026083105,
-  "issuedAtUtc": "2026-08-31T05:50:09Z",
+  "sequence": 2026090801,
+  "issuedAtUtc": "2026-09-08T05:08:38Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Added bundled Poko Champions Mega 0.3.7-rc1 and the Mew /랜덤배틀 menu button; preserved all five existing bundled modules. Mega multiplayer verification and matching server rollout remain separate.",
+    "Integrated 48 cosmetics including nine boots and 70 head/face combinations while preserving existing HUD, fishing-rod and other resources.",
     "Updated exactly ten Poko fishing-rod model files for Altaria, Chi-Yu, Fuecoco, Magby, and Rowlet in normal and cast states while preserving the unified BetterHud font resources and every unrelated asset.",
     "Unified the BetterHud 전체 채팅, 대기중, timer, and numeric HUD text under the bundled TTTogether font by disabling the default bitmap merge; all existing resources and corrected fishing-rod mappings are preserved.",
     "Applied the corrected fishing-rod custom-model-data mappings while preserving the currently deployed BetterHud common and wild HUD font mappings and status textures.",
@@ -101,9 +103,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.9-20260824/PokotycoonClient-1.0.9.jar",
-      "sha256": "1b43e24cd13114cba5a65d404c5f7f365d167237da587f70139defcc11f0207e",
-      "size": 30576151,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-cosmetics-mew-mega-20260908/PokotycoonClient-1.0.9.jar",
+      "sha256": "823895fad4efd57b988b05f3dedc9bb8dfc89b0e66ffe626d8cd48445bb3d88f",
+      "size": 78345485,
       "required": true
     },
     {
@@ -185,9 +187,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-fishing-models-20260831/PokotycoonResources.zip",
-      "sha256": "c11dbb693cc82f6f49cb1ef0d2b89f1ef85658149d07c7258dea80f9381e6668",
-      "size": 14683542,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-cosmetics-mew-mega-20260908/PokotycoonResources.zip",
+      "sha256": "acd999fd7f925fad3a5f2e96ac6ad9a2539ba6c6fdee4fb2ebe1dcd562fb4070",
+      "size": 15349879,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

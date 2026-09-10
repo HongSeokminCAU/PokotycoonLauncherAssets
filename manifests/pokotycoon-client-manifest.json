@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.09-pokotycoon-client-1.0.9-adventure-bgm",
+  "version": "2026.09.10-pokotycoon-client-1.0.9-mega-0.4.0-rc1",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026090901,
-  "issuedAtUtc": "2026-09-09T11:57:35Z",
+  "sequence": 2026091001,
+  "issuedAtUtc": "2026-09-10T09:38:06Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Updated only the bundled PokoChampionsMega from 0.3.7-rc1 to 0.4.0-rc1, including the 0.3.9 fixes and revised idle models for 34 Mega forms. All 36 code classes and 37 data entries match the installed server module 0.3.9-rc1. Other bundled modules and the adventure BGM resource pack are preserved.",
     "Replaced Overworld, creative and underwater background music with six streamed adventure tracks while preserving all existing resources, sound effects, title/Nether/End/boss music and Pixelmon sound definitions.",
     "Added bundled Poko Champions Mega 0.3.7-rc1 and the Mew /랜덤배틀 menu button; preserved all five existing bundled modules. Mega multiplayer verification and matching server rollout remain separate.",
     "Integrated 48 cosmetics including nine boots and 70 head/face combinations while preserving existing HUD, fishing-rod and other resources.",
@@ -104,9 +105,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-cosmetics-mew-mega-20260908/PokotycoonClient-1.0.9.jar",
-      "sha256": "823895fad4efd57b988b05f3dedc9bb8dfc89b0e66ffe626d8cd48445bb3d88f",
-      "size": 78345485,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-mega-0.4.0-20260910/PokotycoonClient-1.0.9.jar",
+      "sha256": "977a43b3e089992ab2384dd03b6b2254be097bb2496b50589e6892b8a40782b1",
+      "size": 78430496,
       "required": true
     },
     {

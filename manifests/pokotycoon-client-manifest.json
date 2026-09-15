@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.15-pokotycoon-moon-rabbit-collision-fix",
+  "version": "2026.09.15-pokotycoon-webgui-loadfix",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026091504,
-  "issuedAtUtc": "2026-09-15T05:27:22.034364Z",
+  "sequence": 2026091505,
+  "issuedAtUtc": "2026-09-15T05:40:45.143420Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Fixed WebGUI rating lazy-module imports and refreshed UI script cache keys. Embedded the unchanged click sound to avoid custom-scheme media fetch dependence. Preserved champion palettes, other modules and the Moon Rabbit resource pack.",
     "Added Moon Rabbit cosmetics with collision-safe CMD 876200-876207. Preserved Giratina, golden crops, existing armor tiles, HUD, BGM and all client modules.",
     "Added Iron Bundle champion and champion_gold client palettes, textures and sprites. Existing WebGUI screens, island help, tower, other modules and resource pack are unchanged.",
     "Island Help now runs /섬 도움말 and closes WebGUI. Only the exact command is allowed; every other module and the integrated resource pack are preserved.",
@@ -110,9 +111,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-champion-palettes-20260915/PokotycoonClient-1.0.9.jar",
-      "sha256": "c8e610ad4dc1b31ca9e9079d4dd0f2b67319a808aa149b6cc0e67c0f803853ee",
-      "size": 111622149,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-webgui-loadfix-20260915/PokotycoonClient-1.0.9.jar",
+      "sha256": "f1ecf88accff2f7a1fb65d859908c5d79a67cf44ff98619d8ecd1419ff4ceb32",
+      "size": 111626809,
       "required": true
     },
     {

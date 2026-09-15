@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.15-pokotycoon-island-help-command",
+  "version": "2026.09.15-pokotycoon-champion-palettes",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026091502,
-  "issuedAtUtc": "2026-09-15T04:38:05.846629Z",
+  "sequence": 2026091503,
+  "issuedAtUtc": "2026-09-15T05:08:54.168Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Added Iron Bundle champion and champion_gold client palettes, textures and sprites. Existing WebGUI screens, island help, tower, other modules and resource pack are unchanged.",
     "Island Help now runs /섬 도움말 and closes WebGUI. Only the exact command is allowed; every other module and the integrated resource pack are preserved.",
     "Added Paldea rc4, Battle Tower and island community WebGUI, champion icons and golden crop resources. Existing modules, HUD, cosmetics and single-pack BGM are preserved; matching server components activate on the next maintenance restart.",
     "Use the existing six BGM files in the single launcher resource pack. Add named sound events for server-controlled continuous playback; suppress automatic world music to avoid overlap. No second music pack download.",
@@ -108,9 +109,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-island-help-20260915/PokotycoonClient-1.0.9.jar",
-      "sha256": "088163768387267a3b827fb4a417f12ce14cf61358edac7ded324d28b52a81ee",
-      "size": 107131244,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-champion-palettes-20260915/PokotycoonClient-1.0.9.jar",
+      "sha256": "c8e610ad4dc1b31ca9e9079d4dd0f2b67319a808aa149b6cc0e67c0f803853ee",
+      "size": 111622149,
       "required": true
     },
     {

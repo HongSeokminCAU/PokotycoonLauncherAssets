@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.15-pokotycoon-webgui-loadfix",
+  "version": "2026.09.15-pokotycoon-webgui-bridgefix",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026091505,
-  "issuedAtUtc": "2026-09-15T05:40:45.143420Z",
+  "sequence": 2026091506,
+  "issuedAtUtc": "2026-09-15T05:53:24.245875Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Fixed rating and random battle response event names; bounded rating hello retries handle late game bridge initialization. Preserved session/sequence validation, manual-only match/purchase actions, existing modules, palettes and resources.",
     "Fixed WebGUI rating lazy-module imports and refreshed UI script cache keys. Embedded the unchanged click sound to avoid custom-scheme media fetch dependence. Preserved champion palettes, other modules and the Moon Rabbit resource pack.",
     "Added Moon Rabbit cosmetics with collision-safe CMD 876200-876207. Preserved Giratina, golden crops, existing armor tiles, HUD, BGM and all client modules.",
     "Added Iron Bundle champion and champion_gold client palettes, textures and sprites. Existing WebGUI screens, island help, tower, other modules and resource pack are unchanged.",
@@ -111,9 +112,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-webgui-loadfix-20260915/PokotycoonClient-1.0.9.jar",
-      "sha256": "f1ecf88accff2f7a1fb65d859908c5d79a67cf44ff98619d8ecd1419ff4ceb32",
-      "size": 111626809,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-webgui-bridgefix-20260915/PokotycoonClient-1.0.9.jar",
+      "sha256": "2570b185c33890eb23ff90dd8d2e6d2bc70063ca21008fbb55f2b061bb38090e",
+      "size": 111626913,
       "required": true
     },
     {

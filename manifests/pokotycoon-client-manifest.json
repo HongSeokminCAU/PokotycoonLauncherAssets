@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.12-pokotycoon-single-pack-bgm",
+  "version": "2026.09.15-pokotycoon-paldea-tower-island-champion",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026091201,
-  "issuedAtUtc": "2026-09-12T02:44:43Z",
+  "sequence": 2026091501,
+  "issuedAtUtc": "2026-09-15T04:09:06.938631Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Added Paldea rc4, Battle Tower and island community WebGUI, champion icons and golden crop resources. Existing modules, HUD, cosmetics and single-pack BGM are preserved; matching server components activate on the next maintenance restart.",
     "Use the existing six BGM files in the single launcher resource pack. Add named sound events for server-controlled continuous playback; suppress automatic world music to avoid overlap. No second music pack download.",
     "Updated only the bundled PokoChampionsMega from 0.3.7-rc1 to 0.4.0-rc1, including the 0.3.9 fixes and revised idle models for 34 Mega forms. All 36 code classes and 37 data entries match the installed server module 0.3.9-rc1. Other bundled modules and the adventure BGM resource pack are preserved.",
     "Replaced Overworld, creative and underwater background music with six streamed adventure tracks while preserving all existing resources, sound effects, title/Nether/End/boss music and Pixelmon sound definitions.",
@@ -106,9 +107,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-mega-0.4.0-20260910/PokotycoonClient-1.0.9.jar",
-      "sha256": "977a43b3e089992ab2384dd03b6b2254be097bb2496b50589e6892b8a40782b1",
-      "size": 78430496,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-paldea-tower-champion-20260915/PokotycoonClient-1.0.9.jar",
+      "sha256": "89631881e2f802d1e07f3785c4a9d24530a45bf0e6a08d78e531725c5ba73e72",
+      "size": 107131213,
       "required": true
     },
     {
@@ -190,9 +191,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-single-pack-bgm-20260912/PokotycoonResources.zip",
-      "sha256": "2f62a3f0beaa5baa8abfdfb48ea86a14bff835570a90e9dc4e1f6acf39ff651f",
-      "size": 26199329,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-paldea-tower-champion-20260915/PokotycoonResources.zip",
+      "sha256": "4b51efbd1b76a6d260684e521477a607b08498d9379431f5edc8ddb21762dc34",
+      "size": 26211317,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

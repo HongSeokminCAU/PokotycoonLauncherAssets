@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.15-pokotycoon-community-entry",
+  "version": "2026.09.15-pokotycoon-community-repair",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026091508,
-  "issuedAtUtc": "2026-09-15T06:49:39.646860Z",
+  "sequence": 2026091509,
+  "issuedAtUtc": "2026-09-15T07:34:13.795607Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "섬 커뮤니티 community-repair 화면 및 기여 항목 아이콘 1,007개 반영. 배틀타워 즉시 입장, 기존 통신 코드·다른 내장 모드·리소스팩 유지.",
     "섬 커뮤니티 community-finish 화면 반영 및 배틀타워 입장 /배틀타워 즉시 명령 전송. 중복 전송 방지와 구매 검증, 다른 내장 모드 및 기존 리소스팩 유지.",
     "섬 커뮤니티·랭킹 UI 및 입력 단축키 업데이트, 배틀타워 화면 선표시, 챔피언 PB 아이콘 등록 및 전용 폰트 아이콘 3종 추가. 기존 레이팅 연결 수정과 리소스 유지.",
     "Fixed rating and random battle response event names; bounded rating hello retries handle late game bridge initialization. Preserved session/sequence validation, manual-only match/purchase actions, existing modules, palettes and resources.",
@@ -114,9 +115,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-community-entry-20260915/PokotycoonClient-1.0.9.jar",
-      "sha256": "33f5c01e81b5ee589d5bc019304205bbd9419fc7cfed5f887dee9454308baf84",
-      "size": 112447211,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-community-repair-20260915/PokotycoonClient-1.0.9.jar",
+      "sha256": "658bb9fae02f0874e35bf33adee961d55efd65934ab3ed17ca2a1e05ccd0f50e",
+      "size": 113153739,
       "required": true
     },
     {

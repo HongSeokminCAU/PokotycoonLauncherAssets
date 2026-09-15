@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.15-pokotycoon-champion-palettes",
+  "version": "2026.09.15-pokotycoon-moon-rabbit-collision-fix",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026091503,
-  "issuedAtUtc": "2026-09-15T05:08:54.168Z",
+  "sequence": 2026091504,
+  "issuedAtUtc": "2026-09-15T05:27:22.034364Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Added Moon Rabbit cosmetics with collision-safe CMD 876200-876207. Preserved Giratina, golden crops, existing armor tiles, HUD, BGM and all client modules.",
     "Added Iron Bundle champion and champion_gold client palettes, textures and sprites. Existing WebGUI screens, island help, tower, other modules and resource pack are unchanged.",
     "Island Help now runs /섬 도움말 and closes WebGUI. Only the exact command is allowed; every other module and the integrated resource pack are preserved.",
     "Added Paldea rc4, Battle Tower and island community WebGUI, champion icons and golden crop resources. Existing modules, HUD, cosmetics and single-pack BGM are preserved; matching server components activate on the next maintenance restart.",
@@ -193,9 +194,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-paldea-tower-champion-20260915/PokotycoonResources.zip",
-      "sha256": "4b51efbd1b76a6d260684e521477a607b08498d9379431f5edc8ddb21762dc34",
-      "size": 26211317,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-moon-rabbit-fix-20260915/PokotycoonResources.zip",
+      "sha256": "7fef5f71ef3cb41dd4e5a4b44efbfc032d57aff9d7a4fc3bb16cc99331df6a16",
+      "size": 26232493,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

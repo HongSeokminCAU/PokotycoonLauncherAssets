@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.17-pokotycoon-mining-resources",
+  "version": "2026.09.17-pokotycoon-balls-chuseok8",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026091701,
-  "issuedAtUtc": "2026-09-17T10:30:14.013797Z",
+  "sequence": 2026091702,
+  "issuedAtUtc": "2026-09-17T13:26:16.501250Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "볼 칭호 아이콘 8종 및 추석 치장 추가팩 통합. 광부·기존 리소스 유지, 달토끼 짚신과 꽃신 텍스처 칸 분리. 볼 아이콘은 poko_balls:icons 폰트 사용.",
     "PokoMining 1.2.1 광부 도구 리소스 통합. 기존 스타터 도구·달토끼 망치 CMD 매핑과 모든 기존 리소스를 보존하고 광부 도구 매핑만 추가.",
     "섬 커뮤니티 community-repair 화면 및 기여 항목 아이콘 1,007개 반영. 배틀타워 즉시 입장, 기존 통신 코드·다른 내장 모드·리소스팩 유지.",
     "섬 커뮤니티 community-finish 화면 반영 및 배틀타워 입장 /배틀타워 즉시 명령 전송. 중복 전송 방지와 구매 검증, 다른 내장 모드 및 기존 리소스팩 유지.",
@@ -200,9 +201,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-mining-resources-20260917/PokotycoonResources.zip",
-      "sha256": "42e43a4ff71983d5ad6fdf9594e6ca2908e4c8926ae1e336ef43b8d52c1d1cf0",
-      "size": 26250991,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-balls-chuseok8-20260917/PokotycoonResources.zip",
+      "sha256": "e6e8e526bb9f3ef2d99358740d81a5851e01d86848d922ec06566e3ad864ce93",
+      "size": 26301020,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

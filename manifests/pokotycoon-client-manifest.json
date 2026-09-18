@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.17-pokotycoon-balls-chuseok8",
+  "version": "2026.09.18-pokotycoon-battle-info-rc3",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026091702,
-  "issuedAtUtc": "2026-09-17T13:26:16.501250Z",
+  "sequence": 2026091801,
+  "issuedAtUtc": "2026-09-18T02:32:44.706765Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "PokoBattleInfo 0.1.0-rc3 통합: 기술 상성·타입 표시, 서버 능력치 단계 동기화. 기존 WebGUI·내장 모드·리소스팩 유지.",
     "볼 칭호 아이콘 8종 및 추석 치장 추가팩 통합. 광부·기존 리소스 유지, 달토끼 짚신과 꽃신 텍스처 칸 분리. 볼 아이콘은 poko_balls:icons 폰트 사용.",
     "PokoMining 1.2.1 광부 도구 리소스 통합. 기존 스타터 도구·달토끼 망치 CMD 매핑과 모든 기존 리소스를 보존하고 광부 도구 매핑만 추가.",
     "섬 커뮤니티 community-repair 화면 및 기여 항목 아이콘 1,007개 반영. 배틀타워 즉시 입장, 기존 통신 코드·다른 내장 모드·리소스팩 유지.",
@@ -117,9 +118,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-community-repair-20260915/PokotycoonClient-1.0.9.jar",
-      "sha256": "658bb9fae02f0874e35bf33adee961d55efd65934ab3ed17ca2a1e05ccd0f50e",
-      "size": 113153739,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-battle-info-rc3-20260918/PokotycoonClient-1.0.9.jar",
+      "sha256": "bb3574b03a7cf99d956384b65174796e40aa095dba4171ef130125ddea005b45",
+      "size": 113172950,
       "required": true
     },
     {

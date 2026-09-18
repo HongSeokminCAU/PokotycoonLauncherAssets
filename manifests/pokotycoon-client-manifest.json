@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.18-pokotycoon-battle-info-rc4",
+  "version": "2026.09.18-pokotycoon-mining-resources-1.2.8",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026091802,
-  "issuedAtUtc": "2026-09-18T04:26:03.173386+00:00",
+  "sequence": 2026091803,
+  "issuedAtUtc": "2026-09-18T04:47:05.448598+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "마이닝 리소스 모델 3개(shard/gravel/golem)의 꼬마돌·데구리·딱구리 아이콘 참조 수정. 나머지 리소스 및 BattleInfo rc4 통합 모드 유지.",
     "BattleInfo rc4: 교체·가방·대상 선택창 추가 패널 겹침 방지. 서버 rc3 프로토콜 호환, 기존 WebGUI·모드·리소스 유지.",
     "PokoBattleInfo 0.1.0-rc3 통합: 기술 상성·타입 표시, 서버 능력치 단계 동기화. 기존 WebGUI·내장 모드·리소스팩 유지.",
     "볼 칭호 아이콘 8종 및 추석 치장 추가팩 통합. 광부·기존 리소스 유지, 달토끼 짚신과 꽃신 텍스처 칸 분리. 볼 아이콘은 poko_balls:icons 폰트 사용.",
@@ -203,9 +204,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-balls-chuseok8-20260917/PokotycoonResources.zip",
-      "sha256": "e6e8e526bb9f3ef2d99358740d81a5851e01d86848d922ec06566e3ad864ce93",
-      "size": 26301020,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-mining-resources-1.2.8-20260918/PokotycoonResources.zip",
+      "sha256": "232644e7a33e2b423e4e0a76ede6193b8c92a6a903efe6c3580b3abf6d342789",
+      "size": 26300277,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

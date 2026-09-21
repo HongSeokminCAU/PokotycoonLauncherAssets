@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.20-pokotycoon-island-pokemon-progress",
+  "version": "2026.09.21-pokotycoon-island-party-bulk",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026092001,
-  "issuedAtUtc": "2026-09-20T05:03:37.375845+00:00",
+  "sequence": 2026092101,
+  "issuedAtUtc": "2026-09-21T09:30:01.175121+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "섬 공헌 파티 번호·파티 전용 납품·선택 품목 전체 납품 UI 반영. BattleInfo rc4와 기존 모드·리소스팩 유지. 전체 납품은 대응 서버 플러그인 적용 후 활성화.",
     "섬 포켓몬 납품 현황·상태 필터·자동 갱신 UI 추가. BattleInfo rc4 및 다른 내장 모드·리소스팩 유지. 새 서버 기능은 대응 플러그인 적용 후 사용.",
     "마이닝 리소스 모델 3개(shard/gravel/golem)의 꼬마돌·데구리·딱구리 아이콘 참조 수정. 나머지 리소스 및 BattleInfo rc4 통합 모드 유지.",
     "BattleInfo rc4: 교체·가방·대상 선택창 추가 패널 겹침 방지. 서버 rc3 프로토콜 호환, 기존 WebGUI·모드·리소스 유지.",
@@ -121,9 +122,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-island-progress-20260920/PokotycoonClient-1.0.9.jar",
-      "sha256": "f24c2a14ccc9e0c8b5df0c31ef64e6880e2a8f0d7823e8d9f82c49ecf78de772",
-      "size": 113282695,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-island-party-bulk-20260921/PokotycoonClient-1.0.9.jar",
+      "sha256": "d132089ae54366b89c76e9ab352edf5c9db65badb77cd2ea4b6767add3fb7dbe",
+      "size": 113390831,
       "required": true
     },
     {

@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.22-pokotycoon-champion-road-up70",
+  "version": "2026.09.23-pokotycoon-ditto-client-guard",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026092202,
-  "issuedAtUtc": "2026-09-22T12:29:35.697027+00:00",
+  "sequence": 2026092301,
+  "issuedAtUtc": "2026-09-23T08:51:38.556935+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "PokoDittoClientGuard 0.2.0 추가: 클라이언트 변신·전투 표시에서 누락된 폼/팔레트의 기본값 처리. 기존 모드·WebGUI·리소스팩 유지.",
     "체육관 화면의 챔피언 로드 궁전 이미지와 글자를 70px 위로 이동. 크기·내부 화면·기존 기능·리소스팩 유지.",
     "체육관에 챔피언 로드·사천왕/챔피언 선택 추가. 섬 전체 공헌, 레이팅·배틀타워 수정, BattleInfo rc4 및 리소스팩 유지.",
     "섬 공헌 파티 번호·파티 전용 납품·선택 품목 전체 납품 UI 반영. BattleInfo rc4와 기존 모드·리소스팩 유지. 전체 납품은 대응 서버 플러그인 적용 후 활성화.",
@@ -124,9 +125,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-champion-road-up70-20260922/PokotycoonClient-1.0.9.jar",
-      "sha256": "07c10e726f67614dfaabefc5d0b83b9c1bc82542fdac7f15c79a076bd9aa11e9",
-      "size": 119634327,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ditto-client-guard-20260923/PokotycoonClient-1.0.9.jar",
+      "sha256": "bfebb4f1f184a87edc313b5975f0e5c065e5c2b766f6bc39155f1a7ed8e3da5d",
+      "size": 119637349,
       "required": true
     },
     {

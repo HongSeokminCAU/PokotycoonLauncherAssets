@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.23-pokotycoon-songpyeon-resources",
+  "version": "2026.09.25-pokotycoon-million-title",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026092302,
-  "issuedAtUtc": "2026-09-23T14:56:56.175003+00:00",
+  "sequence": 2026092501,
+  "issuedAtUtc": "2026-09-25T14:58:47.075395+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "100만 누적 칭호 아이콘 추가. 기존 리소스 및 통합 모드 유지.",
     "송편 모자 노랑·초록·핑크 3종 추가. 기존 리소스 및 Ditto Client Guard 통합 모드 유지.",
     "PokoDittoClientGuard 0.2.0 추가: 클라이언트 변신·전투 표시에서 누락된 폼/팔레트의 기본값 처리. 기존 모드·WebGUI·리소스팩 유지.",
     "체육관 화면의 챔피언 로드 궁전 이미지와 글자를 70px 위로 이동. 크기·내부 화면·기존 기능·리소스팩 유지.",
@@ -210,9 +211,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-songpyeon-resources-20260923/PokotycoonResources.zip",
-      "sha256": "8ec3457043fdf0a0e30263a31dd6e5ac33b29b19b40505f52825ddc859748152",
-      "size": 26206448,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-million-title-20260925/PokotycoonResources.zip",
+      "sha256": "c16897d649d81c29f830f59cf454fbcbc463213f031b3a38d586b79ef2ac33ae",
+      "size": 26207136,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

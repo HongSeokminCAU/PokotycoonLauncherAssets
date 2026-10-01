@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.01-pokotycoon-ui-merged",
+  "version": "2026.10.01-pokotycoon-personal-merged",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026100101,
-  "issuedAtUtc": "2026-10-01T04:05:33.212815+00:00",
+  "sequence": 2026100102,
+  "issuedAtUtc": "2026-10-01T04:50:04.911292+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "섬 개인 랭킹·보상 탭 추가. 기존 파티 표시·전체 공헌 제출, 위키·업적·경매장·챔피언 로드·메타몽 보호·리소스를 모두 보존. 개인 보상은 섬 서버 전용 플러그인 적용 후 이용.",
     "경매장·업적·위키 화면과 별도 PokoChatUI 추가. 기존 챔피언 로드·섬·레이팅·메타몽 보호 및 모든 리소스를 보존하고 업적 칭호 아이콘 5종 추가. 새 연동 화면은 대응 서버 구성 적용 후 사용.",
     "100만 누적 칭호 아이콘 추가. 기존 리소스 및 통합 모드 유지.",
     "송편 모자 노랑·초록·핑크 3종 추가. 기존 리소스 및 Ditto Client Guard 통합 모드 유지.",
@@ -128,9 +129,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ui-merged-20261001/PokotycoonClient-1.0.9.jar",
-      "sha256": "f6c9efd78185aaa2b5ff5584c786e66bed36da2f73ded639c86f9b37134d16df",
-      "size": 123746598,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-personal-merged-20261001/PokotycoonClient-1.0.9.jar",
+      "sha256": "4bf0196cf8f63f53cf1846584d10d49502b4dd1103c3873ab3966099cf5eca34",
+      "size": 123853632,
       "required": true
     },
     {

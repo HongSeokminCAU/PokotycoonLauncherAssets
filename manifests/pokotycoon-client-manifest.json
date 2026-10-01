@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.09.25-pokotycoon-million-title",
+  "version": "2026.10.01-pokotycoon-ui-merged",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026092501,
-  "issuedAtUtc": "2026-09-25T14:58:47.075395+00:00",
+  "sequence": 2026100101,
+  "issuedAtUtc": "2026-10-01T04:05:33.212815+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "경매장·업적·위키 화면과 별도 PokoChatUI 추가. 기존 챔피언 로드·섬·레이팅·메타몽 보호 및 모든 리소스를 보존하고 업적 칭호 아이콘 5종 추가. 새 연동 화면은 대응 서버 구성 적용 후 사용.",
     "100만 누적 칭호 아이콘 추가. 기존 리소스 및 통합 모드 유지.",
     "송편 모자 노랑·초록·핑크 3종 추가. 기존 리소스 및 Ditto Client Guard 통합 모드 유지.",
     "PokoDittoClientGuard 0.2.0 추가: 클라이언트 변신·전투 표시에서 누락된 폼/팔레트의 기본값 처리. 기존 모드·WebGUI·리소스팩 유지.",
@@ -127,9 +128,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ditto-client-guard-20260923/PokotycoonClient-1.0.9.jar",
-      "sha256": "bfebb4f1f184a87edc313b5975f0e5c065e5c2b766f6bc39155f1a7ed8e3da5d",
-      "size": 119637349,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ui-merged-20261001/PokotycoonClient-1.0.9.jar",
+      "sha256": "f6c9efd78185aaa2b5ff5584c786e66bed36da2f73ded639c86f9b37134d16df",
+      "size": 123746598,
       "required": true
     },
     {
@@ -137,6 +138,13 @@
       "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.0.0/MCEF-2.1.6-1.21.1.jar",
       "sha256": "0c7696216fa5cfee659d687475873c847a9a17cc8ce3a56119a69c946eeb8772",
       "size": 215373,
+      "required": true
+    },
+    {
+      "path": "PokoChatUI-0.1.0.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ui-merged-20261001/PokoChatUI-0.1.0.jar",
+      "sha256": "95991008f798d65026f2f241b6ace354edaa0376033a529a122b47169aa8aaf4",
+      "size": 59140,
       "required": true
     }
   ],
@@ -211,9 +219,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-million-title-20260925/PokotycoonResources.zip",
-      "sha256": "c16897d649d81c29f830f59cf454fbcbc463213f031b3a38d586b79ef2ac33ae",
-      "size": 26207136,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ui-merged-20261001/PokotycoonResources.zip",
+      "sha256": "b73ff82a160129b08bc100ffc759780d5287b0bb61532dd2f469f28137cf308b",
+      "size": 26209864,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

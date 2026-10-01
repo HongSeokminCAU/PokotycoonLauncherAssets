@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.01-pokotycoon-village-share",
+  "version": "2026.10.01-pokotycoon-auction-enchant",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026100107,
-  "issuedAtUtc": "2026-10-01T09:44:20.141005+00:00",
+  "sequence": 2026100108,
+  "issuedAtUtc": "2026-10-01T13:05:00.276799+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Auction enchantment names/levels and enchanted book name correction. Validate enchantment arrays and retain all 1.0.15 features. Detailed enchantments require PokoAuction 1.0.38 server data.",
     "Show village contribution share in personal rankings when supplied by the server. Preserve ranking images/fonts, wiki fixes and all existing modules; correct duplicate community asset path.",
     "Fix island/personal ranking images and fonts; improve loading, empty and unavailable states. Correct duplicate community asset path. Preserve all 1.0.13 modules and wiki behavior.",
     "Restore original large-screen wiki home layout; apply responsive fix only at width <=1250px or height <=700px. Preserve direct close and all other modules.",
@@ -133,10 +134,10 @@
       "required": true
     },
     {
-      "path": "PokotycoonClient-1.0.15.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-village-share-20261001/PokotycoonClient-1.0.15.jar",
-      "sha256": "8e361321101ae4ff930752721294508cebd6c5988c9fd24ad36347c4fe40776b",
-      "size": 123557394,
+      "path": "PokotycoonClient-1.0.16.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-auction-enchant-20261001/PokotycoonClient-1.0.16.jar",
+      "sha256": "c7ffcac1f6d4e40f4fc26c5bc38e3d7370a7ddac79c69c9940835af044dc8849",
+      "size": 123557959,
       "required": true
     },
     {
@@ -165,97 +166,103 @@
       "path": "PokotycoonClient-1.0.0.jar",
       "sha256": "9af797a7bd185226877c6043de775a5e76e149c8a488f51306b12a46925ecb49",
       "size": 29897291,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.0-r2.jar",
       "sha256": "e2a9bac3c20390c99a0a0132b64f1e2327906b78e2b5c794a705ca4a22813a8e",
       "size": 29982164,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.0-r3.jar",
       "sha256": "efb60bd02bc06ffa9cc68dc7d345cd7bc31532793014b0bce5d1f8b9c77d176a",
       "size": 29965729,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.1.jar",
       "sha256": "7d96ace5de3e815e53ae77509cbd7231c9f90a64a2fbcd2a23ae1abdda5fc934",
       "size": 29995695,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.2.jar",
       "sha256": "e357bc24373de7b7b64ea06edb19658e18b259d4a23e2f33b0b40c9c395ff759",
       "size": 29995575,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.3.jar",
       "sha256": "71494ace5c4cc4dc909a45ba39841da724fa05a4e02f6c3f32745f2502ae8a1d",
       "size": 30011828,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.4.jar",
       "sha256": "e55de05f761b4c01a1d866f60f2438abaafe09ec966778be4de7b95d281860dd",
       "size": 30025357,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.5.jar",
       "sha256": "7297f54f46344920a1db46db169d9f10911105cdfbfc8b4be956fe6bb39d9e7c",
       "size": 30026470,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.6.jar",
       "sha256": "1c05087d631de4826a150965b2dcbb8e857837cb2081abd587d28cf95ec9fd8b",
       "size": 30138010,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.7.jar",
       "sha256": "d66fae9ea7f759115bc99993da2ca0fb5dd32840fea7eff9409304c3311fc1b0",
       "size": 30568481,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
       "sha256": "4bf0196cf8f63f53cf1846584d10d49502b4dd1103c3873ab3966099cf5eca34",
       "size": 123853632,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.10.jar",
       "sha256": "0cd8f008797d9f52b0fd94aa49a11c48dbff64121e6cfc79f3d81be2e4d555b6",
       "size": 117464716,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.11.jar",
       "sha256": "9091e82f8189c333de13356b6e6bb8f2bba4633140da19fb12e2508fbc1c7779",
       "size": 123926976,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.12.jar",
       "sha256": "27071f6d88cea7ee7d2c953693fe0a3b37740fb1ccf85e5564beffd320ba10ac",
       "size": 123928204,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.13.jar",
       "sha256": "12c3c256e4010c0794cf85bcf39a93a7be23846793551ca114e51e8361726405",
       "size": 123928225,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     },
     {
       "path": "PokotycoonClient-1.0.14.jar",
       "sha256": "f4b67d16911b65e60d6f6476dfa045985ec940bfabd4055a25dbe3a9a553731a",
       "size": 124036180,
-      "replacedBy": "PokotycoonClient-1.0.15.jar"
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
+    },
+    {
+      "path": "PokotycoonClient-1.0.15.jar",
+      "sha256": "8e361321101ae4ff930752721294508cebd6c5988c9fd24ad36347c4fe40776b",
+      "size": 123557394,
+      "replacedBy": "PokotycoonClient-1.0.16.jar"
     }
   ],
   "resourcePacks": [

@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.04-pokotycoon-chat-wiki",
+  "version": "2026.10.04-pokotycoon-wiki-evo",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026100401,
-  "issuedAtUtc": "2026-10-04T07:11:42.644984+00:00",
+  "sequence": 2026100402,
+  "issuedAtUtc": "2026-10-04T13:29:41.097793+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "Correct wiki evolution-condition descriptions including Meltan iron feeding, Gimmighoul coins, party, nature, battle and scroll requirements. Only wiki/pokemon.js changed; all existing modules, UI fixes and resources preserved.",
     "Keep the megaphone slot visible while chat is open; wiki Back returns to the main menu instead of the shop. Preserve all 1.0.16 features and resource packs. Auction keep-open behavior requires the separately staged server plugin.",
     "Auction enchantment names/levels and enchanted book name correction. Validate enchantment arrays and retain all 1.0.15 features. Detailed enchantments require PokoAuction 1.0.38 server data.",
     "Show village contribution share in personal rankings when supplied by the server. Preserve ranking images/fonts, wiki fixes and all existing modules; correct duplicate community asset path.",
@@ -136,9 +137,9 @@
     },
     {
       "path": "PokotycoonClient-1.0.17.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-chat-wiki-20261004/PokotycoonClient-1.0.17.jar",
-      "sha256": "de79988c75c37177dd39f68141cdd50cce59a6cf67fcb4691937e77e693865d3",
-      "size": 123558015,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-wiki-evo-20261004/PokotycoonClient-1.0.17.jar",
+      "sha256": "7148e93eb66f7628ca7bea1c849640b49b7a77eaa04c8186c6778b887b25ddaf",
+      "size": 123558777,
       "required": true
     },
     {

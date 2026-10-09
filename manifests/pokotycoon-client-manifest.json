@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.09-pokotycoon-1.1.3-league",
+  "version": "2026.10.09-pokotycoon-1.1.4-rewardfix",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026100905,
-  "issuedAtUtc": "2026-10-09T04:35:29.511Z",
+  "sequence": 2026100906,
+  "issuedAtUtc": "2026-10-09T05:39:11.464787+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "업적 달성 완료 상태에서도 미수령 보상이 있으면 보상 받기 버튼을 표시합니다. 서버 rewardPending 데이터 필요. 포코로그 0.11.4·리그 및 기존 모드·리소스 유지.",
     "포코리그 달력·규칙 화면에 요일별 시작 시각과 룰을 정확히 표시합니다. PokoRogue 0.11.4, 업적 수정 및 모든 기존 내장 모드·리소스를 유지합니다.",
     "내장 PokoRogue Client 0.11.4 업데이트: 포코로그 화면 및 아이템 이미지 10개 추가. 업적·리그·기존 모드와 리소스 유지.",
     "PokoRogue Client 0.11.1 내장 업데이트. 업적 1.1.2 수정 및 기존 WebGUI·리그·다른 모드·리소스 유지. 서버 파일 변경 없음.",
@@ -143,10 +144,10 @@
       "required": true
     },
     {
-      "path": "PokotycoonClient-1.1.3.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.1.3-league-20261009/PokotycoonClient-1.1.3.jar",
-      "sha256": "e49733c80e0de5d87a240e92fe6d6acd85537abf3f4081d77784a83916f1ee45",
-      "size": 131010589,
+      "path": "PokotycoonClient-1.1.4.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.1.4-rewardfix-20261009/PokotycoonClient-1.1.4.jar",
+      "sha256": "ab522392a6b3f26f7b667ed5cbfda1303d9e0921fe22e3739faf4ab1fdf0c225",
+      "size": 131010647,
       "required": true
     },
     {
@@ -175,229 +176,235 @@
       "path": "PokotycoonClient-1.0.0.jar",
       "sha256": "9af797a7bd185226877c6043de775a5e76e149c8a488f51306b12a46925ecb49",
       "size": 29897291,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.0-r2.jar",
       "sha256": "e2a9bac3c20390c99a0a0132b64f1e2327906b78e2b5c794a705ca4a22813a8e",
       "size": 29982164,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.0-r3.jar",
       "sha256": "efb60bd02bc06ffa9cc68dc7d345cd7bc31532793014b0bce5d1f8b9c77d176a",
       "size": 29965729,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.1.jar",
       "sha256": "7d96ace5de3e815e53ae77509cbd7231c9f90a64a2fbcd2a23ae1abdda5fc934",
       "size": 29995695,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.2.jar",
       "sha256": "e357bc24373de7b7b64ea06edb19658e18b259d4a23e2f33b0b40c9c395ff759",
       "size": 29995575,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.3.jar",
       "sha256": "71494ace5c4cc4dc909a45ba39841da724fa05a4e02f6c3f32745f2502ae8a1d",
       "size": 30011828,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.4.jar",
       "sha256": "e55de05f761b4c01a1d866f60f2438abaafe09ec966778be4de7b95d281860dd",
       "size": 30025357,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.5.jar",
       "sha256": "7297f54f46344920a1db46db169d9f10911105cdfbfc8b4be956fe6bb39d9e7c",
       "size": 30026470,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.6.jar",
       "sha256": "1c05087d631de4826a150965b2dcbb8e857837cb2081abd587d28cf95ec9fd8b",
       "size": 30138010,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.7.jar",
       "sha256": "d66fae9ea7f759115bc99993da2ca0fb5dd32840fea7eff9409304c3311fc1b0",
       "size": 30568481,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.9.jar",
       "sha256": "4bf0196cf8f63f53cf1846584d10d49502b4dd1103c3873ab3966099cf5eca34",
       "size": 123853632,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.10.jar",
       "sha256": "0cd8f008797d9f52b0fd94aa49a11c48dbff64121e6cfc79f3d81be2e4d555b6",
       "size": 117464716,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.11.jar",
       "sha256": "9091e82f8189c333de13356b6e6bb8f2bba4633140da19fb12e2508fbc1c7779",
       "size": 123926976,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.12.jar",
       "sha256": "27071f6d88cea7ee7d2c953693fe0a3b37740fb1ccf85e5564beffd320ba10ac",
       "size": 123928204,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.13.jar",
       "sha256": "12c3c256e4010c0794cf85bcf39a93a7be23846793551ca114e51e8361726405",
       "size": 123928225,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.14.jar",
       "sha256": "f4b67d16911b65e60d6f6476dfa045985ec940bfabd4055a25dbe3a9a553731a",
       "size": 124036180,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.15.jar",
       "sha256": "8e361321101ae4ff930752721294508cebd6c5988c9fd24ad36347c4fe40776b",
       "size": 123557394,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.16.jar",
       "sha256": "c7ffcac1f6d4e40f4fc26c5bc38e3d7370a7ddac79c69c9940835af044dc8849",
       "size": 123557959,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.17.jar",
       "sha256": "7148e93eb66f7628ca7bea1c849640b49b7a77eaa04c8186c6778b887b25ddaf",
       "size": 123558777,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoBattleSkin-0.2.1.jar",
       "sha256": "afa34d452272a2cf6fc82662d9ab4f83bc53acfcadff3b2908d7e88995ed596f",
       "size": 69452,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoBattleSkin-0.2.0.jar",
       "sha256": "ef38d66e96b98573b2f3792975ea95200e40c7b6d32d174acbcfba8d999a3baa",
       "size": 57234,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.10.0.jar",
       "sha256": "f54beb043d05713c1923779a58cfdca47d00ebc8ec3c923e1e174a74a1a3a7a4",
       "size": 7098512,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.10.5.jar",
       "sha256": "b8c3523684344878c9b96fcc1c31b80f4b73f8e8ead1c52ec919cbcc06263e12",
       "size": 7098700,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.11.0.jar",
       "sha256": "8d8edd9b7029cf337b1ab9f20c88166135aaf79da488b622c8bdcb05681586e9",
       "size": 7098751,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.8.0.jar",
       "sha256": "161d7d4621bbf964e118c904a1734abffa7c0ce4612ff7c0d788b16c89416aec",
       "size": 3146148,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.8.1.jar",
       "sha256": "d984c137484530dd8d910afd216fb578eca5ff90982f428df9691e8e3a124857",
       "size": 7097152,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.8.3.jar",
       "sha256": "962ae1f845a164f688c99b81bfa2d9a09f4666c15af37e1ac7cc77c0abf726ea",
       "size": 7097198,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.8.6.jar",
       "sha256": "4e655063840170fe2d00d09e39fed946d0b28c878e7d8cfb56f3eff405808035",
       "size": 7097860,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.9.0.jar",
       "sha256": "a9ebf19226ffb52cf5818d9b21c4ca00f57d8fadec8508f27a4cc3080706e6fb",
       "size": 7099269,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.7.1.jar",
       "sha256": "45facaf096fa7555d483ec456c8870c978e0b340592bf699f36dab5cc91bc81a",
       "size": 3145923,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.18.jar",
       "sha256": "3e973541aba970c425805671424921ba32918f69c3f4064d9965b4f599e5daef",
       "size": 123562784,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.0.19.jar",
       "sha256": "618ffc9ec0c723b111d4ff948c1e11b3efbfaa7c580d17a83c9893e92ad0bfd5",
       "size": 123569014,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoBattleResume-0.1.1.jar",
       "sha256": "d23ad7fd154827809c004613a1e7a2847cef6031d9d0bed93fc0aed6bb3933aa",
       "size": 4348,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.1.0.jar",
       "sha256": "1d306a20f085d7b5c582fa19a099f4596806046e8ed62a6b2c69e5fa554c4e27",
       "size": 130842982,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.1.1.jar",
       "sha256": "3d121d9a6b23946fb8c7727b3a9be152a85a467d5072805a3e71ca90d374b973",
       "size": 131004446,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.11.1.jar",
       "sha256": "7c375dd5a66543adfad63054927950621460d8bd9451f888e5fb089748564ed5",
       "size": 7100120,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokoRogueClient-0.11.4.jar",
       "sha256": "e8f8c3dc40a7acaf7ba736685591eaa2352fef6511d82bc4641d31f53bc03b1d",
       "size": 7106182,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     },
     {
       "path": "PokotycoonClient-1.1.2.jar",
       "sha256": "b6ec2a8836b4eb2c280fcde2db33aa24991a33dc577ff257d76763cf86b6c5de",
       "size": 131010144,
-      "replacedBy": "PokotycoonClient-1.1.3.jar"
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
+    },
+    {
+      "path": "PokotycoonClient-1.1.3.jar",
+      "sha256": "e49733c80e0de5d87a240e92fe6d6acd85537abf3f4081d77784a83916f1ee45",
+      "size": 131010589,
+      "replacedBy": "PokotycoonClient-1.1.4.jar"
     }
   ],
   "resourcePacks": [

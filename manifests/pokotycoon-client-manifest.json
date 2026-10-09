@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.09-pokotycoon-1.1.2",
+  "version": "2026.10.09-pokotycoon-1.1.2-rogue-0.11.4",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026100903,
-  "issuedAtUtc": "2026-10-09T03:46:38.335169+00:00",
+  "sequence": 2026100904,
+  "issuedAtUtc": "2026-10-09T04:16:23.961391+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "내장 PokoRogue Client 0.11.4 업데이트: 포코로그 화면 및 아이템 이미지 10개 추가. 업적·리그·기존 모드와 리소스 유지.",
     "PokoRogue Client 0.11.1 내장 업데이트. 업적 1.1.2 수정 및 기존 WebGUI·리그·다른 모드·리소스 유지. 서버 파일 변경 없음.",
     "클라이언트 1.1.2: 업적 대용량 데이터를 분할 수신해 무한 로딩을 해결합니다(서버 PixelAchievements 0.1.46 필요). 누락 시 재연결과 기존 창 복구를 지원합니다.",
     "클라이언트 1.1.1: 리그 화면 추가(대응 서버 필요), 업적 로딩 제한·재연결·닫기 보완, 독립 WebGUI 클릭음 추가, 포코로그 보라색 배경 유지 및 바깥 여백 투명화. 기존 모드·리소스 유지.",
@@ -142,9 +143,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.2.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.1.2-20261009/PokotycoonClient-1.1.2.jar",
-      "sha256": "b90210c645cd3227445c6a2213316d7a20ae2b791bdc56549e24fdbb50bb3620",
-      "size": 131006290,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-rogue-0.11.4-20261009/PokotycoonClient-1.1.2.jar",
+      "sha256": "b6ec2a8836b4eb2c280fcde2db33aa24991a33dc577ff257d76763cf86b6c5de",
+      "size": 131010144,
       "required": true
     },
     {
@@ -383,6 +384,12 @@
       "path": "PokoRogueClient-0.11.1.jar",
       "sha256": "7c375dd5a66543adfad63054927950621460d8bd9451f888e5fb089748564ed5",
       "size": 7100120,
+      "replacedBy": "PokotycoonClient-1.1.2.jar"
+    },
+    {
+      "path": "PokoRogueClient-0.11.4.jar",
+      "sha256": "e8f8c3dc40a7acaf7ba736685591eaa2352fef6511d82bc4641d31f53bc03b1d",
+      "size": 7106182,
       "replacedBy": "PokotycoonClient-1.1.2.jar"
     }
   ],

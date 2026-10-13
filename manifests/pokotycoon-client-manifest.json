@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.09-pokotycoon-1.1.5-trophy",
+  "version": "2026.10.13-pokotycoon-champion-titles",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026100907,
-  "issuedAtUtc": "2026-10-09T05:51:04.782705+00:00",
+  "sequence": 2026101301,
+  "issuedAtUtc": "2026-10-13T11:01:57.930364+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "개인 champion 칭호 이미지 2종 추가. 기존 리소스와 모드는 유지합니다.",
     "리그 버튼을 투명 배경 트로피 일러스트로 교체하고 아래 리그 표기를 유지했습니다. 1.1.4 업적 보상 수정 및 기존 기능 유지.",
     "업적 달성 완료 상태에서도 미수령 보상이 있으면 보상 받기 버튼을 표시합니다. 서버 rewardPending 데이터 필요. 포코로그 0.11.4·리그 및 기존 모드·리소스 유지.",
     "포코리그 달력·규칙 화면에 요일별 시작 시각과 룰을 정확히 표시합니다. PokoRogue 0.11.4, 업적 수정 및 모든 기존 내장 모드·리소스를 유지합니다.",
@@ -417,9 +418,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.1.0-20261009/PokotycoonResources.zip",
-      "sha256": "275347d1830f14f4fa5d018b26c924733da4894c7aa2cf151342dd9d07e9b3f0",
-      "size": 26380808,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-champion-titles-20261013/PokotycoonResources.zip",
+      "sha256": "84a7f4432b3467eef1ff144be05302ecfb933c3f33fec6172120d9e4de763bf4",
+      "size": 26243767,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

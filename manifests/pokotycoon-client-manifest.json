@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.14-pokotycoon-seongho-title",
+  "version": "2026.10.14-pokotycoon-halloween-resources",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026101401,
-  "issuedAtUtc": "2026-10-14T12:33:53.137670+00:00",
+  "sequence": 2026101402,
+  "issuedAtUtc": "2026-10-14T14:53:52.930767+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "할로윈 치장 리소스를 통합했습니다. 최신 seongho 칭호 및 기존 리소스·모드는 유지합니다.",
     "seongho2490 champion 칭호 이미지만 교체했습니다. 기존 칭호·리소스·모드는 유지합니다.",
     "개인 champion 칭호 이미지 2종 추가. 기존 리소스와 모드는 유지합니다.",
     "리그 버튼을 투명 배경 트로피 일러스트로 교체하고 아래 리그 표기를 유지했습니다. 1.1.4 업적 보상 수정 및 기존 기능 유지.",
@@ -419,9 +420,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-seongho-title-20261014/PokotycoonResources.zip",
-      "sha256": "564b068acef9f3c86e34fb8d4680a38cd2ed10edfd542c18c46f77500bd018bb",
-      "size": 26382212,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-halloween-resources-20261014/PokotycoonResources.zip",
+      "sha256": "17e92eae206509fbcc48219fdcb60e5db38186ded782c5adc6c2d81b58fb6976",
+      "size": 26465134,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

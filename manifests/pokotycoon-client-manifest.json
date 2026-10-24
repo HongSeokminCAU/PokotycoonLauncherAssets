@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.23-pokotycoon-1.1.13-music-rc8",
+  "version": "2026.10.24-pokotycoon-1.1.13-title-icons",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026102301,
-  "issuedAtUtc": "2026-10-23T12:37:44.585402+00:00",
+  "sequence": 2026102401,
+  "issuedAtUtc": "2026-10-24T03:38:28.244752+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "칭호 아이콘 3종 추가. 기존 치장·모드와 Music RC8 호환 유지, 옛 BGM 제외.",
     "1.1.13: 포코 뮤직 RC8 내장(환경 BGM 138곡, F8 음악 조절). 기존 모험 BGM 6곡만 제거한 호환 리소스팩 적용. 기존 모드·WebGUI·치장·업적 리소스 유지.",
     "1.1.12: 사천왕 업적 그림·칭호 리소스 추가, 주식 진입 및 주식 화면 클릭음 보강. 기존 50만점 안내·포코로그·할로윈 리소스 유지.",
     "1.1.10: 섬 시즌 보상 고정 안내 문구를 500,000점으로 수정. 실제 시즌별 지급 기준은 서버 판정 유지.",
@@ -481,9 +482,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.1.13-music-rc8-20261023/PokotycoonResources.zip",
-      "sha256": "ffdda43c5d89b46ac07d8183ff37981f59b3599dc204393eab5f6421d3b62c5d",
-      "size": 15477284,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-title-icons-20261024/PokotycoonResources.zip",
+      "sha256": "d1bcf3b7657cdc896714d6185f63972fd612ff9fa5e396984b354d0aa2284b30",
+      "size": 15479179,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

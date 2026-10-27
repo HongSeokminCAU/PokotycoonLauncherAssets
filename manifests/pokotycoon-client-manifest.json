@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.27-pokotycoon-1.1.13-instruments-fontfix",
+  "version": "2026.10.27-pokotycoon-1.1.13-webgui-ui-fix",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026102703,
-  "issuedAtUtc": "2026-10-27T05:36:15.168754+00:00",
+  "sequence": 2026102704,
+  "issuedAtUtc": "2026-10-27T06:08:13.009Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "WebGUI 섬·기타 등 배경 경계를 제거하고 전체 화면 반투명으로 통일. 클릭음 보강 및 칭호 버튼을 업적 칭호 탭으로 연결. 기존 시작 크래시 수정·음악·악기·리소스 유지. 게임과 런처를 종료한 뒤 다시 실행해 업데이트하세요.",
     "시작 크래시 수정: 악기 글꼴과 리소스팩의 공유 폰트 참조 충돌(FreeType 0x14) 해결. 기존 리소스팩·모드·음악 유지. 런처를 완전히 종료한 뒤 다시 실행해 업데이트하세요.",
     "긴급 클라이언트 보완: Pixelmon 초기 화면 중복 등록(cooking_pot) 방지. WebGUI·별도 음악·악기·기존 리소스 유지. 전용 런처를 다시 실행해 업데이트하세요.",
     "1.1.13 웹 화면 확장: 프로필·섬 홈피·체육관·기타·변신·진급, 스킨 0.5.1 및 섬 사진. 음악 RC8을 별도 JAR로 분리하고 악기 1.1.1 추가. 기존 기능·부츠 수정 리소스 유지. 새 서버 연동 기능은 대응 서버 적용 필요.",
@@ -161,9 +162,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-screen-hotfix-20261027/PokotycoonClient-1.1.13.jar",
-      "sha256": "3db4646f3dde970a928f240d8c7c0398ee63010caa81ab1233eb32b4a3221ee0",
-      "size": 136616818,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-webgui-ui-fix-20261027/PokotycoonClient-1.1.13.jar",
+      "sha256": "9fa103750593ced3b6506dd9761601094394bd4141d183d655a60211d697ca13",
+      "size": 136623396,
       "required": true
     },
     {

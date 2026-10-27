@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.27-pokotycoon-1.1.13-webgui-split",
+  "version": "2026.10.27-pokotycoon-1.1.13-screen-hotfix",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026102701,
-  "issuedAtUtc": "2026-10-27T05:10:29.737635+00:00",
+  "sequence": 2026102702,
+  "issuedAtUtc": "2026-10-27T05:26:03.027229+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "긴급 클라이언트 보완: Pixelmon 초기 화면 중복 등록(cooking_pot) 방지. WebGUI·별도 음악·악기·기존 리소스 유지. 전용 런처를 다시 실행해 업데이트하세요.",
     "1.1.13 웹 화면 확장: 프로필·섬 홈피·체육관·기타·변신·진급, 스킨 0.5.1 및 섬 사진. 음악 RC8을 별도 JAR로 분리하고 악기 1.1.1 추가. 기존 기능·부츠 수정 리소스 유지. 새 서버 연동 기능은 대응 서버 적용 필요.",
     "가을 크림단 부츠 착용 시 골반 높이에 나타나는 불필요한 윗면 숨김. 기존 모드·치장·칭호·Music RC8 호환 유지.",
     "칭호 아이콘 3종 추가. 기존 치장·모드와 Music RC8 호환 유지, 옛 BGM 제외.",
@@ -159,9 +160,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-1.1.13-webgui-split-20261027/PokotycoonClient-1.1.13.jar",
-      "sha256": "0b8da2743ddd42cc5be3b4f3fc1f061b46df031f417a8907e0a1da2c34cc4f7b",
-      "size": 136615999,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-screen-hotfix-20261027/PokotycoonClient-1.1.13.jar",
+      "sha256": "3db4646f3dde970a928f240d8c7c0398ee63010caa81ab1233eb32b4a3221ee0",
+      "size": 136616818,
       "required": true
     },
     {

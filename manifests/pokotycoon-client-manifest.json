@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.27-pokotycoon-1.1.13-shop-gym-instruments-fix",
+  "version": "2026.10.29-pokotycoon-1.1.13-rogue-hub-noloss",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026102705,
-  "issuedAtUtc": "2026-10-27T07:14:31Z",
+  "sequence": 2026102901,
+  "issuedAtUtc": "2026-10-29T08:46:58.546083+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "포코로그 새 허브의 선택·입장 확인·도움말·결과 안내 수정: 실패해도 원본 포켓몬은 반환됩니다. 도전 중 임시 획득물과 구분. 기존 글꼴·크래시·배경·클릭음 수정 및 다른 모드·리소스 유지.",
     "체육관 이동 버튼과 귀뚤톡크 변신권 이름 수정, 악기 1.1.2 음높이 보정과 글꼴 충돌 방지 통합. 기존 WebGUI 배경·클릭음·칭호 연결·Pixelmon 시작 오류 수정 및 리소스팩 유지. 게임과 런처를 종료한 뒤 다시 실행해 업데이트하세요.",
     "WebGUI 섬·기타 등 배경 경계를 제거하고 전체 화면 반투명으로 통일. 클릭음 보강 및 칭호 버튼을 업적 칭호 탭으로 연결. 기존 시작 크래시 수정·음악·악기·리소스 유지. 게임과 런처를 종료한 뒤 다시 실행해 업데이트하세요.",
     "시작 크래시 수정: 악기 글꼴과 리소스팩의 공유 폰트 참조 충돌(FreeType 0x14) 해결. 기존 리소스팩·모드·음악 유지. 런처를 완전히 종료한 뒤 다시 실행해 업데이트하세요.",
@@ -163,9 +164,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-shop-gym-instruments-fixed-20261027/PokotycoonClient-1.1.13.jar",
-      "sha256": "d9932fba9939ab035019d1e24d472560c8417b16b3be57477a3e30ae23603f59",
-      "size": 136623423,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-rogue-hub-noloss-20261029/PokotycoonClient-1.1.13.jar",
+      "sha256": "b54f445a376ae0c7a9858c0bdb39c646020e7c412463f17d717fb0569293fb84",
+      "size": 136623447,
       "required": true
     },
     {

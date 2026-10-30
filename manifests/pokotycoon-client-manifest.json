@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.30-pokotycoon-1.1.13-mythic",
+  "version": "2026.10.30-pokotycoon-1.1.13-instruments-1.1.5",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026103002,
-  "issuedAtUtc": "2026-10-30T05:39:15.980070+00:00",
+  "sequence": 2026103003,
+  "issuedAtUtc": "2026-10-30T07:13:55.044606+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "악기 모드 1.1.5: 악기 음원·음별 음량 개선, 마디 넣기·빼기·되돌리기 및 구간 미리듣기. 구버전 연주 중계와 기존 글꼴 수정 유지. 파일명은 런처 호환을 위해 1.1.1 유지. 음원: GMGSx (Kenneth Rundt, CC BY 3.0), GeneralUser GS (S. Christian Collins).",
     "환상 이스터에그 별자리 WebGUI 추가: 발견 기록·탐색 힌트·마지막 세 별 표시와 메뉴 capability 연결. 클릭음 로더 포함. 기존 키트·랭킹·치장·스킨·포코로그 안내 및 글꼴/크래시 수정 유지. 대응 서버 플러그인 필요.",
     "프로필 키트·특수문자·배경 위치, 섬/개인 랭킹 페이지, 치장 아이템 꺼내기 화면 통합. 대응 서버·카탈로그 적용 후 새 기능 활성화. 포코로그 원본 반환 안내와 기존 글꼴·크래시·배경·클릭음 수정 및 다른 모드·리소스 유지. 스킨 아틀리에 10/28 client-slim 탑승 모델 수정본 통합.",
     "포코로그 새 허브의 선택·입장 확인·도움말·결과 안내 수정: 실패해도 원본 포켓몬은 반환됩니다. 도전 중 임시 획득물과 구분. 기존 글꼴·크래시·배경·클릭음 수정 및 다른 모드·리소스 유지.",
@@ -194,9 +195,9 @@
     },
     {
       "path": "pokotycoon_instruments-1.1.1.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-shop-gym-instruments-fixed-20261027/pokotycoon_instruments-1.1.1.jar",
-      "sha256": "4a6a1a3face379b9527fdad07f8e4885fe30599f94619c8c31ca8b2ba3e44747",
-      "size": 6596383,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-instruments-1.1.5-20261030/pokotycoon_instruments-1.1.1.jar",
+      "sha256": "8e2a0e72b1a3da6082a23cac6367527a20ca4da1c4ef963a7a8ad5c46bcf242d",
+      "size": 22203899,
       "required": true
     }
   ],

@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.30-pokotycoon-1.1.13-kits-ranking-skin",
+  "version": "2026.10.30-pokotycoon-1.1.13-mythic",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026103001,
-  "issuedAtUtc": "2026-10-30T04:15:25.649199+00:00",
+  "sequence": 2026103002,
+  "issuedAtUtc": "2026-10-30T05:39:15.980070+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "환상 이스터에그 별자리 WebGUI 추가: 발견 기록·탐색 힌트·마지막 세 별 표시와 메뉴 capability 연결. 클릭음 로더 포함. 기존 키트·랭킹·치장·스킨·포코로그 안내 및 글꼴/크래시 수정 유지. 대응 서버 플러그인 필요.",
     "프로필 키트·특수문자·배경 위치, 섬/개인 랭킹 페이지, 치장 아이템 꺼내기 화면 통합. 대응 서버·카탈로그 적용 후 새 기능 활성화. 포코로그 원본 반환 안내와 기존 글꼴·크래시·배경·클릭음 수정 및 다른 모드·리소스 유지. 스킨 아틀리에 10/28 client-slim 탑승 모델 수정본 통합.",
     "포코로그 새 허브의 선택·입장 확인·도움말·결과 안내 수정: 실패해도 원본 포켓몬은 반환됩니다. 도전 중 임시 획득물과 구분. 기존 글꼴·크래시·배경·클릭음 수정 및 다른 모드·리소스 유지.",
     "체육관 이동 버튼과 귀뚤톡크 변신권 이름 수정, 악기 1.1.2 음높이 보정과 글꼴 충돌 방지 통합. 기존 WebGUI 배경·클릭음·칭호 연결·Pixelmon 시작 오류 수정 및 리소스팩 유지. 게임과 런처를 종료한 뒤 다시 실행해 업데이트하세요.",
@@ -165,9 +166,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-kits-ranking-skin-20261030/PokotycoonClient-1.1.13.jar",
-      "sha256": "ba7896c8253e3454306a8a73a820adf95623562c53466f640a751f6efc32387d",
-      "size": 136642522,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-mythic-20261030/PokotycoonClient-1.1.13.jar",
+      "sha256": "a58da49b499f61199e7b448615d17bf9288b3869df3f9a69f5633952f939b0a2",
+      "size": 136654710,
       "required": true
     },
     {

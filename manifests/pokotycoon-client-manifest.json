@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.10.30-pokotycoon-1.1.13-kits-redesign",
+  "version": "2026.11.03-pokotycoon-1.1.13-wiki-grades",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026103004,
-  "issuedAtUtc": "2026-10-30T08:55:41.792912+00:00",
+  "sequence": 2026110301,
+  "issuedAtUtc": "2026-11-03T05:46:04.566142+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "위키 포케가챠 등급 배지 및 7개 등급 필터 추가. 기존 키트 디자인·글꼴·크래시 수정·내장 모드·리소스 유지. 악기는 기존 1.1.5 유지(1.1.6 서버 적용 대기). 자동 런처만 갱신.",
     "프로필 키트 8종 여권 전체 디자인 개선: 테마별 화면 테두리·상단 장식·배경·카드·버튼 색상. WebGUI CSS 한 파일만 변경하며 기존 글꼴·크래시·포코로그·스킨·환상 UI 수정, 악기 1.1.5 및 리소스팩 유지. 표지 색은 서버 카탈로그 설정 사용.",
     "악기 모드 1.1.5: 악기 음원·음별 음량 개선, 마디 넣기·빼기·되돌리기 및 구간 미리듣기. 구버전 연주 중계와 기존 글꼴 수정 유지. 파일명은 런처 호환을 위해 1.1.1 유지. 음원: GMGSx (Kenneth Rundt, CC BY 3.0), GeneralUser GS (S. Christian Collins).",
     "환상 이스터에그 별자리 WebGUI 추가: 발견 기록·탐색 힌트·마지막 세 별 표시와 메뉴 capability 연결. 클릭음 로더 포함. 기존 키트·랭킹·치장·스킨·포코로그 안내 및 글꼴/크래시 수정 유지. 대응 서버 플러그인 필요.",
@@ -168,9 +169,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-kits-redesign-20261030/PokotycoonClient-1.1.13.jar",
-      "sha256": "fef9b5252a72e2e5a363255fad5d3cfe9e4dbdc21baba49ee68c252db0d41385",
-      "size": 136659526,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-wiki-grades-20261103/PokotycoonClient-1.1.13.jar",
+      "sha256": "c01a8592bab188044b5415b1eb9feae93902019a98ab6a02cb301bdc5bde0c1d",
+      "size": 136685425,
       "required": true
     },
     {

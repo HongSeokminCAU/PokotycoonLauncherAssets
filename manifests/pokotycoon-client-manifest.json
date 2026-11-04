@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.04-pokotycoon-ui-wallet-rim",
+  "version": "2026.11.05-pokotycoon-ui-tab-option",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026110402,
-  "issuedAtUtc": "2026-11-04T14:56:02.219Z",
+  "sequence": 2026110501,
+  "issuedAtUtc": "2026-11-04T15:10:56.385Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "개인설정에 Tab 키 UI 켜기/끄기 추가. 끄면 기존 마인크래프트 Tab 목록 사용. 지갑 테두리 수정·F6·글꼴·통신·악기 1.2.0·위키·리소스 유지.",
     "지갑 HUD 테두리 보완: 9분할 이미지 대신 연속 도형으로 배경·외곽선을 그립니다. 글자·배치·기존 UI·악기 1.2.0·위키·리소스·통신 유지.",
     "악기 1.2.0 합주·256마디 및 네이티브 UI 0.1.1/F6 질문창 추가. 대응 서버 적용 전에는 합주·긴 곡 저장을 사용하지 마세요. 지갑·접속자·질문 답변은 서버 연동 필요. 기존 위키 등급·모드·음악·리소스 유지. 자동 런처만 갱신.",
     "위키 포케가챠 등급 배지 및 7개 등급 필터 추가. 기존 키트 디자인·글꼴·크래시 수정·내장 모드·리소스 유지. 악기는 기존 1.1.5 유지(1.1.6 서버 적용 대기). 자동 런처만 갱신.",
@@ -206,9 +207,9 @@
     },
     {
       "path": "pokotycoon_ui-0.1.1.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ui-wallet-rim-20261104/pokotycoon_ui-0.1.1.jar",
-      "sha256": "411b1b2e97c05e6bbbcc1d77ee9f540d02c882918a25e95d8927931e9375c110",
-      "size": 2764839,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ui-tab-option-20261105/pokotycoon_ui-0.1.1.jar",
+      "sha256": "e7c0c27e057db959ee9bc702c70646f2cbc9ee331a21feeef0dbae183d51a0ee",
+      "size": 2765271,
       "required": true
     }
   ],

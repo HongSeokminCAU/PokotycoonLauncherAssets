@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.03-pokotycoon-1.1.13-wiki-grades",
+  "version": "2026.11.04-pokotycoon-ensemble-ui",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026110301,
-  "issuedAtUtc": "2026-11-03T05:46:04.566142+00:00",
+  "sequence": 2026110401,
+  "issuedAtUtc": "2026-11-04T14:08:38.526058+00:00",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "악기 1.2.0 합주·256마디 및 네이티브 UI 0.1.1/F6 질문창 추가. 대응 서버 적용 전에는 합주·긴 곡 저장을 사용하지 마세요. 지갑·접속자·질문 답변은 서버 연동 필요. 기존 위키 등급·모드·음악·리소스 유지. 자동 런처만 갱신.",
     "위키 포케가챠 등급 배지 및 7개 등급 필터 추가. 기존 키트 디자인·글꼴·크래시 수정·내장 모드·리소스 유지. 악기는 기존 1.1.5 유지(1.1.6 서버 적용 대기). 자동 런처만 갱신.",
     "프로필 키트 8종 여권 전체 디자인 개선: 테마별 화면 테두리·상단 장식·배경·카드·버튼 색상. WebGUI CSS 한 파일만 변경하며 기존 글꼴·크래시·포코로그·스킨·환상 UI 수정, 악기 1.1.5 및 리소스팩 유지. 표지 색은 서버 카탈로그 설정 사용.",
     "악기 모드 1.1.5: 악기 음원·음별 음량 개선, 마디 넣기·빼기·되돌리기 및 구간 미리듣기. 구버전 연주 중계와 기존 글꼴 수정 유지. 파일명은 런처 호환을 위해 1.1.1 유지. 음원: GMGSx (Kenneth Rundt, CC BY 3.0), GeneralUser GS (S. Christian Collins).",
@@ -197,9 +198,16 @@
     },
     {
       "path": "pokotycoon_instruments-1.1.1.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-instruments-1.1.5-20261030/pokotycoon_instruments-1.1.1.jar",
-      "sha256": "8e2a0e72b1a3da6082a23cac6367527a20ca4da1c4ef963a7a8ad5c46bcf242d",
-      "size": 22203899,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ensemble-ui-20261104/pokotycoon_instruments-1.1.1.jar",
+      "sha256": "fac0e57663d104853742e8c8ed7e67da89489a045e0965c1389f9933675b94bc",
+      "size": 22222930,
+      "required": true
+    },
+    {
+      "path": "pokotycoon_ui-0.1.1.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ensemble-ui-20261104/pokotycoon_ui-0.1.1.jar",
+      "sha256": "8fdc8b9a6457f208dd9643240c98223c5be1c712760a8cf9f0294dddf8997c8c",
+      "size": 2764490,
       "required": true
     }
   ],

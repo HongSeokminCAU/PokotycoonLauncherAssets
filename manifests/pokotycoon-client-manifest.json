@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.05-pokotycoon-ui-tab-option",
+  "version": "2026.11.05-pokotycoon-onboarding-rewards",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026110501,
-  "issuedAtUtc": "2026-11-04T15:10:56.385Z",
+  "sequence": 2026110502,
+  "issuedAtUtc": "2026-11-05T12:13:59.071Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "접속보상 화면에 30분·2시간·6시간·12시간 첫날 정착 보상 추가, 기존 1~30일 도장판·모두 받기 유지. 실제 지급은 대응 서버 적용 필요. 기존 위키·내장 모드·UI Tab 선택·지갑 테두리·악기 1.2.0·리소스 유지.",
     "개인설정에 Tab 키 UI 켜기/끄기 추가. 끄면 기존 마인크래프트 Tab 목록 사용. 지갑 테두리 수정·F6·글꼴·통신·악기 1.2.0·위키·리소스 유지.",
     "지갑 HUD 테두리 보완: 9분할 이미지 대신 연속 도형으로 배경·외곽선을 그립니다. 글자·배치·기존 UI·악기 1.2.0·위키·리소스·통신 유지.",
     "악기 1.2.0 합주·256마디 및 네이티브 UI 0.1.1/F6 질문창 추가. 대응 서버 적용 전에는 합주·긴 곡 저장을 사용하지 마세요. 지갑·접속자·질문 답변은 서버 연동 필요. 기존 위키 등급·모드·음악·리소스 유지. 자동 런처만 갱신.",
@@ -172,9 +173,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-wiki-grades-20261103/PokotycoonClient-1.1.13.jar",
-      "sha256": "c01a8592bab188044b5415b1eb9feae93902019a98ab6a02cb301bdc5bde0c1d",
-      "size": 136685425,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-onboarding-rewards-20261105/PokotycoonClient-1.1.13.jar",
+      "sha256": "63b5065fae878fd6803ed940e70a7b467b484fb5b5a65c54faf9ff5f3b093ec2",
+      "size": 136687353,
       "required": true
     },
     {

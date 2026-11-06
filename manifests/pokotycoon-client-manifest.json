@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.06-pokotycoon-resources-cosmetics",
+  "version": "2026.11.06-ui-download-name-hotfix",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026110601,
-  "issuedAtUtc": "2026-11-06T05:49:20.973Z",
+  "sequence": 2026110602,
+  "issuedAtUtc": "2026-11-06T06:08:05.455Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "맥 런처 다운로드 URL/설치 파일명 불일치 긴급 수정. UI 내용은 0.1.2 그대로, 공개 파일명·설치명 모두 pokotycoon_ui-0.1.1.jar로 일치. 최신 치장 리소스·두더류·모든 모드 유지.",
     "치장 통합 리소스 추가(182종 구성) 및 기존 님피아 머리띠·얼굴 합성 5종을 새 모델로 교체. 부츠 8×7 격자와 일반 갑옷 오버레이 흰색 충돌 보완, 낫·지팡이 손 표시 수정. 기존 폰트·칭호·HUD·낚싯대·모드·두더류·UI 0.1.2 유지. 새 치장 지급·등록은 별도 서버 설정 필요.",
     "네이티브 UI 0.1.2: 일정 시작 1분 전 알림 카드·띠링 및 연결 코드 보완. 중복 모드 방지를 위해 설치 파일명 pokotycoon_ui-0.1.1.jar 유지(내부 0.1.2). 기존 Tab 선택·지갑 테두리·글꼴·두더류 눈높이·접속보상·악기·음악·리소스 유지. 자동 런처만 갱신.",
     "두더류 변신 눈높이를 일반 플레이어 높이(0.68→1.62)로 조정. 몰드류·다른 변신·외형/충돌 크기·3인칭 카메라 유지. 기존 접속보상·위키·글꼴/크래시 수정·Tab UI·악기·음악·리소스 유지. 서버 판정은 대응 서버 모드 적용 필요.",
@@ -211,7 +212,7 @@
     },
     {
       "path": "pokotycoon_ui-0.1.1.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ui-0.1.2-20261105/pokotycoon_ui-0.1.2.jar",
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ui-0.1.2-20261105/pokotycoon_ui-0.1.1.jar",
       "sha256": "57eeb03273925e17b29f4cf3f0ca08121ab9a6aad8534e3430ab0cbbbc3f0b1e",
       "size": 2769543,
       "required": true

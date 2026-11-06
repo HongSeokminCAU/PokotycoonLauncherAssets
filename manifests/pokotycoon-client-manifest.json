@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.05-pokotycoon-ui-0.1.2",
+  "version": "2026.11.06-pokotycoon-resources-cosmetics",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026110504,
-  "issuedAtUtc": "2026-11-05T14:11:09.382Z",
+  "sequence": 2026110601,
+  "issuedAtUtc": "2026-11-06T05:49:20.973Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "치장 통합 리소스 추가(182종 구성) 및 기존 님피아 머리띠·얼굴 합성 5종을 새 모델로 교체. 부츠 8×7 격자와 일반 갑옷 오버레이 흰색 충돌 보완, 낫·지팡이 손 표시 수정. 기존 폰트·칭호·HUD·낚싯대·모드·두더류·UI 0.1.2 유지. 새 치장 지급·등록은 별도 서버 설정 필요.",
     "네이티브 UI 0.1.2: 일정 시작 1분 전 알림 카드·띠링 및 연결 코드 보완. 중복 모드 방지를 위해 설치 파일명 pokotycoon_ui-0.1.1.jar 유지(내부 0.1.2). 기존 Tab 선택·지갑 테두리·글꼴·두더류 눈높이·접속보상·악기·음악·리소스 유지. 자동 런처만 갱신.",
     "두더류 변신 눈높이를 일반 플레이어 높이(0.68→1.62)로 조정. 몰드류·다른 변신·외형/충돌 크기·3인칭 카메라 유지. 기존 접속보상·위키·글꼴/크래시 수정·Tab UI·악기·음악·리소스 유지. 서버 판정은 대응 서버 모드 적용 필요.",
     "접속보상 화면에 30분·2시간·6시간·12시간 첫날 정착 보상 추가, 기존 1~30일 도장판·모두 받기 유지. 실제 지급은 대응 서버 적용 필요. 기존 위키·내장 모드·UI Tab 선택·지갑 테두리·악기 1.2.0·리소스 유지.",
@@ -521,9 +522,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-autumn-boots-fix-20261026/PokotycoonResources.zip",
-      "sha256": "1add6cecb9f46f8b358cfaba96d7d867cc302f93965082c8e245fb9993de055b",
-      "size": 15618823,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-cosmetics-20261106/PokotycoonResources.zip",
+      "sha256": "20eeb058db675a58d6f45f8ec6abc8d9695b41af2acc916681b609a2e3cd870b",
+      "size": 16312396,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

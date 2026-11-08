@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.08-sylveon-head-rollback",
+  "version": "2026.11.08-resourcepack-rollback",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026110801,
-  "issuedAtUtc": "2026-11-08T05:00:34.000Z",
+  "sequence": 2026110802,
+  "issuedAtUtc": "2026-11-08T10:28:18Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "리소스팩 다운로드 504 대응: 이전 님피아 단독 머리 모델이 포함된 10/26 리소스팩으로 복구. 모드 구성은 유지.",
     "님피아 단독 머리치장(CMD 874112)만 이전 모델로 복원. 조합 치장 5종·등·부츠·다른 리소스와 모드는 유지.",
     "맥 런처 다운로드 URL/설치 파일명 불일치 긴급 수정. UI 내용은 0.1.2 그대로, 공개 파일명·설치명 모두 pokotycoon_ui-0.1.1.jar로 일치. 최신 치장 리소스·두더류·모든 모드 유지.",
     "치장 통합 리소스 추가(182종 구성) 및 기존 님피아 머리띠·얼굴 합성 5종을 새 모델로 교체. 부츠 8×7 격자와 일반 갑옷 오버레이 흰색 충돌 보완, 낫·지팡이 손 표시 수정. 기존 폰트·칭호·HUD·낚싯대·모드·두더류·UI 0.1.2 유지. 새 치장 지급·등록은 별도 서버 설정 필요.",
@@ -524,9 +525,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-sylveon-head-20261108/PokotycoonResources.zip",
-      "sha256": "17bbad6da2875b56ced849fd739b2e89c5a15000d24c47cf44765c74e3738951",
-      "size": 16312395,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-autumn-boots-fix-20261026/PokotycoonResources.zip",
+      "sha256": "1add6cecb9f46f8b358cfaba96d7d867cc302f93965082c8e245fb9993de055b",
+      "size": 15618823,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

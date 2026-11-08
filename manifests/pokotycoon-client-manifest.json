@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.08-november-cosmetics-legacy-sylveon",
+  "version": "2026.11.08-sylveon-back-boots",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026110803,
-  "issuedAtUtc": "2026-11-08T10:30:35Z",
+  "sequence": 2026110804,
+  "issuedAtUtc": "2026-11-08T10:51:11Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "님피아 리본 꼬리와 분홍 발 부츠만 다시 적용. 기존 님피아 머리띠·얼굴 조합과 다른 치장·모드는 유지. 리소스팩은 GitHub 원본 주소로 다운로드.",
     "11월 추가 치장은 유지하고 님피아만 이전 외형으로 복원(신규 등·부츠 제외). 리소스팩 다운로드는 GitHub 원본 파일 주소 사용. 모드 변경 없음.",
     "리소스팩 다운로드 504 대응: 이전 님피아 단독 머리 모델이 포함된 10/26 리소스팩으로 복구. 모드 구성은 유지.",
     "님피아 단독 머리치장(CMD 874112)만 이전 모델로 복원. 조합 치장 5종·등·부츠·다른 리소스와 모드는 유지.",
@@ -526,9 +527,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://raw.githubusercontent.com/HongSeokminCAU/PokotycoonLauncherAssets/2b41b03d4705415af1333c0c74e5529baaebe56d/manifests/PokotycoonResources.zip",
-      "sha256": "7a497bfec8db79b567465c78e09274adbdf5056160a3ce4e8dce30156a560816",
-      "size": 16312369,
+      "url": "https://raw.githubusercontent.com/HongSeokminCAU/PokotycoonLauncherAssets/3ccd399f40a806d73d4bd45ea82d43ad99659659/manifests/PokotycoonResources.zip",
+      "sha256": "f093add258682a86382c97ddd3ab0e2b703ec42512b456fd39915323c69b22f5",
+      "size": 16312385,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

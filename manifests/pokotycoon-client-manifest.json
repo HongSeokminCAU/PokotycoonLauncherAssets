@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.06-ui-download-name-hotfix",
+  "version": "2026.11.08-sylveon-head-rollback",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026110602,
-  "issuedAtUtc": "2026-11-06T06:08:05.455Z",
+  "sequence": 2026110801,
+  "issuedAtUtc": "2026-11-08T05:00:34.000Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "님피아 단독 머리치장(CMD 874112)만 이전 모델로 복원. 조합 치장 5종·등·부츠·다른 리소스와 모드는 유지.",
     "맥 런처 다운로드 URL/설치 파일명 불일치 긴급 수정. UI 내용은 0.1.2 그대로, 공개 파일명·설치명 모두 pokotycoon_ui-0.1.1.jar로 일치. 최신 치장 리소스·두더류·모든 모드 유지.",
     "치장 통합 리소스 추가(182종 구성) 및 기존 님피아 머리띠·얼굴 합성 5종을 새 모델로 교체. 부츠 8×7 격자와 일반 갑옷 오버레이 흰색 충돌 보완, 낫·지팡이 손 표시 수정. 기존 폰트·칭호·HUD·낚싯대·모드·두더류·UI 0.1.2 유지. 새 치장 지급·등록은 별도 서버 설정 필요.",
     "네이티브 UI 0.1.2: 일정 시작 1분 전 알림 카드·띠링 및 연결 코드 보완. 중복 모드 방지를 위해 설치 파일명 pokotycoon_ui-0.1.1.jar 유지(내부 0.1.2). 기존 Tab 선택·지갑 테두리·글꼴·두더류 눈높이·접속보상·악기·음악·리소스 유지. 자동 런처만 갱신.",
@@ -523,13 +524,12 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-cosmetics-20261106/PokotycoonResources.zip",
-      "sha256": "20eeb058db675a58d6f45f8ec6abc8d9695b41af2acc916681b609a2e3cd870b",
-      "size": 16312396,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-resources-sylveon-head-20261108/PokotycoonResources.zip",
+      "sha256": "17bbad6da2875b56ced849fd739b2e89c5a15000d24c47cf44765c74e3738951",
+      "size": 16312395,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false
     }
   ]
 }
-

@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.11-client-ui-easel-titles-shiny",
+  "version": "2026.11.11-book-front-view-fix",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026111101,
-  "issuedAtUtc": "2026-11-11T04:08:25Z",
+  "sequence": 2026111102,
+  "issuedAtUtc": "2026-11-11T04:25:25Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "포켓몬북 3D 모델의 앞뒤 면이 겹쳐 보이던 GUI 깊이 축과 머리·몸통 방향을 보정. 정면을 중심으로 기존 6초 주기 ±14도 좌우 흔들림과 기본 애니메이션 유지. 렌더 실패 복구·폰트 보존. UI 파일만 갱신하며 클라이언트 본체·이젤·악기 1.2.0·이로치 치장 통합팩·서버는 변경 없음.",
     "위키 서식지·경매·칭호 화면 및 UI 0.1.5 포켓몬북 반영. 그림/아이템 렌더 실패 시 화면 상태 복구 보완. 기존 글꼴 크래시 방어·포코로그·두더류·클릭음과 다른 모드 유지. 자동 런처만 갱신.",
     "이젤 0.2.2 클라이언트 선배포. 그림 공방은 대응 서버 적용 후 사용. 악기는 현재 공개 1.2.0 그대로 유지하며 1.2.3은 제외. 운영 서버·수동설치·CurseForge팩 변경 없음.",
     "칭호 아이콘 EA24–EA27·기라티나 금관 얼굴 조합 5종 추가. 기존 치장·님피아 머리띠·폰트 보존. 리소스팩은 GitHub 커밋 고정 원본 주소 사용.",
@@ -220,9 +221,9 @@
     },
     {
       "path": "pokotycoon_ui-0.1.1.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-safe-predeploy-20261111/pokotycoon_ui-0.1.1.jar",
-      "sha256": "4a98a7c334c4b41a3141367a98d601edce146206d6de4a28b5d692e18d3cbd15",
-      "size": 4831775,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-book-frontfix-20261111/pokotycoon_ui-0.1.1.jar",
+      "sha256": "8e90a23936a43f947abbea856691c2e2d22df80b7d2a13448bf5886bb47e156e",
+      "size": 4831933,
       "required": true
     },
     {

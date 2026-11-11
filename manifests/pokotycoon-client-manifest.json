@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.11-book-front-view-fix",
+  "version": "2026.11.11-easel-fill-title",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026111102,
-  "issuedAtUtc": "2026-11-11T04:25:25Z",
+  "sequence": 2026111103,
+  "issuedAtUtc": "2026-11-11T04:33:32Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "그림 공방 이젤 0.2.3: 채우기 도구의 불투명 값 누락 수정, 제목에 기호·한두 글자 허용(이모지·색 코드 제외, 12글자까지). 제목 처리는 접속 서버 버전에 따라 제한될 수 있음. 이젤만 갱신하며 포켓몬북 정면·좌우 흔들림 수정 및 다른 모드·리소스팩 유지. 서버·수동설치팩 변경 없음.",
     "포켓몬북 3D 모델의 앞뒤 면이 겹쳐 보이던 GUI 깊이 축과 머리·몸통 방향을 보정. 정면을 중심으로 기존 6초 주기 ±14도 좌우 흔들림과 기본 애니메이션 유지. 렌더 실패 복구·폰트 보존. UI 파일만 갱신하며 클라이언트 본체·이젤·악기 1.2.0·이로치 치장 통합팩·서버는 변경 없음.",
     "위키 서식지·경매·칭호 화면 및 UI 0.1.5 포켓몬북 반영. 그림/아이템 렌더 실패 시 화면 상태 복구 보완. 기존 글꼴 크래시 방어·포코로그·두더류·클릭음과 다른 모드 유지. 자동 런처만 갱신.",
     "이젤 0.2.2 클라이언트 선배포. 그림 공방은 대응 서버 적용 후 사용. 악기는 현재 공개 1.2.0 그대로 유지하며 1.2.3은 제외. 운영 서버·수동설치·CurseForge팩 변경 없음.",
@@ -229,9 +230,9 @@
     {
       "path": "pokotycoon_easel-0.2.1.jar",
       "required": true,
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-safe-predeploy-20261111/pokotycoon_easel-0.2.1.jar",
-      "sha256": "062a22eaa3c0f745b9b3e1a0baeada332d94fc530d17ce9a214e87e2009743a8",
-      "size": 1152642
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-easel-fill-title-20261111/pokotycoon_easel-0.2.1.jar",
+      "sha256": "023babd3f0a65d217c3a99bbadf1dd253cfab8bf70088dd4d44122cee777595c",
+      "size": 1152727
     }
   ],
   "obsoleteMods": [

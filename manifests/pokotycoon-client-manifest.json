@@ -1,17 +1,21 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.08-sylveon-back-boots",
+  "version": "2026.11.11-client-ui-easel-titles-shiny",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026110804,
-  "issuedAtUtc": "2026-11-08T10:51:11Z",
+  "sequence": 2026111101,
+  "issuedAtUtc": "2026-11-11T04:08:25Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "위키 서식지·경매·칭호 화면 및 UI 0.1.5 포켓몬북 반영. 그림/아이템 렌더 실패 시 화면 상태 복구 보완. 기존 글꼴 크래시 방어·포코로그·두더류·클릭음과 다른 모드 유지. 자동 런처만 갱신.",
+    "이젤 0.2.2 클라이언트 선배포. 그림 공방은 대응 서버 적용 후 사용. 악기는 현재 공개 1.2.0 그대로 유지하며 1.2.3은 제외. 운영 서버·수동설치·CurseForge팩 변경 없음.",
+    "칭호 아이콘 EA24–EA27·기라티나 금관 얼굴 조합 5종 추가. 기존 치장·님피아 머리띠·폰트 보존. 리소스팩은 GitHub 커밋 고정 원본 주소 사용.",
+    "이로치 원시 가이오가·원시 그란돈·메가레쿠쟈 머리·등·부츠 3세트(9종) 리소스 추가. 기존 모델 번호와 치장은 유지. 지급·등록은 별도 서버 설정 필요.",
     "님피아 리본 꼬리와 분홍 발 부츠만 다시 적용. 기존 님피아 머리띠·얼굴 조합과 다른 치장·모드는 유지. 리소스팩은 GitHub 원본 주소로 다운로드.",
     "11월 추가 치장은 유지하고 님피아만 이전 외형으로 복원(신규 등·부츠 제외). 리소스팩 다운로드는 GitHub 원본 파일 주소 사용. 모드 변경 없음.",
     "리소스팩 다운로드 504 대응: 이전 님피아 단독 머리 모델이 포함된 10/26 리소스팩으로 복구. 모드 구성은 유지.",
@@ -181,9 +185,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-drilbur-eyeheight-20261105/PokotycoonClient-1.1.13.jar",
-      "sha256": "e1ac3417de675fb919da45607f05491e8895c3f5121383d927cb09d03a4a4058",
-      "size": 136687355,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-safe-predeploy-20261111/PokotycoonClient-1.1.13.jar",
+      "sha256": "2f683637633fe68d06e30cd4efb21e3b483b7d078a60a29a80f4f87da7e223d2",
+      "size": 138754718,
       "required": true
     },
     {
@@ -216,10 +220,17 @@
     },
     {
       "path": "pokotycoon_ui-0.1.1.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-ui-0.1.2-20261105/pokotycoon_ui-0.1.1.jar",
-      "sha256": "57eeb03273925e17b29f4cf3f0ca08121ab9a6aad8534e3430ab0cbbbc3f0b1e",
-      "size": 2769543,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-safe-predeploy-20261111/pokotycoon_ui-0.1.1.jar",
+      "sha256": "4a98a7c334c4b41a3141367a98d601edce146206d6de4a28b5d692e18d3cbd15",
+      "size": 4831775,
       "required": true
+    },
+    {
+      "path": "pokotycoon_easel-0.2.1.jar",
+      "required": true,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-safe-predeploy-20261111/pokotycoon_easel-0.2.1.jar",
+      "sha256": "062a22eaa3c0f745b9b3e1a0baeada332d94fc530d17ce9a214e87e2009743a8",
+      "size": 1152642
     }
   ],
   "obsoleteMods": [
@@ -527,9 +538,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://raw.githubusercontent.com/HongSeokminCAU/PokotycoonLauncherAssets/3ccd399f40a806d73d4bd45ea82d43ad99659659/manifests/PokotycoonResources.zip",
-      "sha256": "f093add258682a86382c97ddd3ab0e2b703ec42512b456fd39915323c69b22f5",
-      "size": 16312385,
+      "url": "https://raw.githubusercontent.com/HongSeokminCAU/PokotycoonLauncherAssets/11e44533a4b05e6af738d3fd4c061c3f28eccd4a/manifests/PokotycoonResources.zip",
+      "sha256": "9407d8ba7952907986cd9fa0a426c35fa67a85bbb68d632b115cffc1536b8511",
+      "size": 16382825,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

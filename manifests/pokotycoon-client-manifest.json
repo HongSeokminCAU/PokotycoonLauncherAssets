@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.11-instruments-1.2.3",
+  "version": "2026.11.19-league-fusion-cosmetics-pokebuilder",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026111104,
-  "issuedAtUtc": "2026-11-11T05:54:01Z",
+  "sequence": 2026111901,
+  "issuedAtUtc": "2026-11-19T06:07:29Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "리그 화면 새 디자인(참가상 표시), 합성 「환상 합성」 탭, 치장 「손·낚싯대」 서랍·겉날개 보이기 스위치, 포케빌더 드림특성 안내·정렬, 게임 안 위키 갱신. 스타터 도끼·괭이 스킨 6종 점선 수정. 환상 합성·낚싯대 서랍·겉날개·참가상은 대응 서버 적용 후 사용. 다른 모드 유지.",
     "악기 1.2.3 선배포: 3/4·6/8 박자, 빠르기 1단위·Shift 10단위, 우클릭·편집 개선. 대응 서버 패치 적용 전에는 악기 곡 편집·저장·합주를 사용하지 마세요(새 박자 정보 유실·드럼/합주 거절 가능). 파일명 1.1.1 유지. 포켓몬북 정면·흔들림 수정, 이젤 0.2.3, 다른 모드·리소스 유지. 서버·수동설치팩 변경 없음.",
     "그림 공방 이젤 0.2.3: 채우기 도구의 불투명 값 누락 수정, 제목에 기호·한두 글자 허용(이모지·색 코드 제외, 12글자까지). 제목 처리는 접속 서버 버전에 따라 제한될 수 있음. 이젤만 갱신하며 포켓몬북 정면·좌우 흔들림 수정 및 다른 모드·리소스팩 유지. 서버·수동설치팩 변경 없음.",
     "포켓몬북 3D 모델의 앞뒤 면이 겹쳐 보이던 GUI 깊이 축과 머리·몸통 방향을 보정. 정면을 중심으로 기존 6초 주기 ±14도 좌우 흔들림과 기본 애니메이션 유지. 렌더 실패 복구·폰트 보존. UI 파일만 갱신하며 클라이언트 본체·이젤·악기 1.2.0·이로치 치장 통합팩·서버는 변경 없음.",
@@ -188,9 +189,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-client-safe-predeploy-20261111/PokotycoonClient-1.1.13.jar",
-      "sha256": "2f683637633fe68d06e30cd4efb21e3b483b7d078a60a29a80f4f87da7e223d2",
-      "size": 138754718,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-webgui-starter-tools-20261119/PokotycoonClient-1.1.13.jar",
+      "sha256": "3c0b551688e6929abda0cfefeff7e97c864e96a5c88fc1649168b0d4916d6ca0",
+      "size": 139242062,
       "required": true
     },
     {
@@ -541,9 +542,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://raw.githubusercontent.com/HongSeokminCAU/PokotycoonLauncherAssets/11e44533a4b05e6af738d3fd4c061c3f28eccd4a/manifests/PokotycoonResources.zip",
-      "sha256": "9407d8ba7952907986cd9fa0a426c35fa67a85bbb68d632b115cffc1536b8511",
-      "size": 16382825,
+      "url": "https://raw.githubusercontent.com/HongSeokminCAU/PokotycoonLauncherAssets/52423590c8588bc1ced357f41debfe17af1445e3/manifests/PokotycoonResources.zip",
+      "sha256": "41a20bdaa17d0594105126156fa5313ffee8dc499990439ef5be607db9262d60",
+      "size": 16382930,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

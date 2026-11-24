@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.21-champions",
+  "version": "2026.11.24-winter-rogue-easel",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026112101,
-  "issuedAtUtc": "2026-11-21T05:08:08Z",
+  "sequence": 2026112401,
+  "issuedAtUtc": "2026-11-24T04:59:47Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "겨울 치장 4세트·도끼 4종 추가(기존 님피아 머리띠·치장·글꼴 유지). 포코로그 보상 최대 9장 잘림 개선·모은 효과 보기, 이젤 0.2.4 확대 UI 배치 개선. 포켓몬별 누적·이젤 보관함·지도 수정은 대응 서버 패치 적용 후 사용. 기존 챔피언·글꼴 크래시 수정·다른 모드 보존. 자동 런처만 갱신; 운영 서버·수동설치·CurseForge팩 변경 없음. 실제 게임 착용 및 Windows 셰이더팩 조합은 미검증.",
     "세대별 챔피언 화면·업적 칭호 그림 10종, 챔피언 머리 치장 9종·NPC 스킨 9장 추가. 대응 서버 적용 후 이용(5·7세대 NPC 스킨 임시). 기존 겉날개 숨기기·글꼴 크래시 수정·모든 다른 모드와 리소스 유지. 리소스는 커밋 고정 원본 URL 사용. 자동 런처만 갱신; 서버·수동설치팩 변경 없음.",
     "치장 스위치를 겉날개 숨기기로 변경. 본인 화면도 겉날개 모델만 숨기며 등 치장·비행·실제 아이템은 유지. 위키·명령어·검색 설명을 같은 의미로 수정. 대응 서버 패치 적용 후 사용. 기존 모드·리소스·글꼴 수정 유지.",
     "리그 화면 새 디자인(참가상 표시), 합성 「환상 합성」 탭, 치장 「손·낚싯대」 서랍·겉날개 보이기 스위치, 포케빌더 드림특성 안내·정렬, 게임 안 위키 갱신. 스타터 도끼·괭이 스킨 6종 점선 수정. 환상 합성·낚싯대 서랍·겉날개·참가상은 대응 서버 적용 후 사용. 다른 모드 유지.",
@@ -191,9 +192,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-champions-20261121/PokotycoonClient-1.1.13.jar",
-      "sha256": "8020b1f30b520278fda744b307c9875dcd399c064b70be8c12130ac9476ca091",
-      "size": 139250767,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-winter-rogue-easel-20261124/PokotycoonClient-1.1.13.jar",
+      "sha256": "0469cc40803be0e9bff9d072413066e7683edff06d5435a28ccbfa83311f9c9f",
+      "size": 139255107,
       "required": true
     },
     {
@@ -234,9 +235,9 @@
     {
       "path": "pokotycoon_easel-0.2.1.jar",
       "required": true,
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-easel-fill-title-20261111/pokotycoon_easel-0.2.1.jar",
-      "sha256": "023babd3f0a65d217c3a99bbadf1dd253cfab8bf70088dd4d44122cee777595c",
-      "size": 1152727
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-winter-rogue-easel-20261124/pokotycoon_easel-0.2.1.jar",
+      "sha256": "2ff4241968955c52aaa6653c189ebc54b1b34d07877ce9d67525bf6670c4c4c6",
+      "size": 1161047
     }
   ],
   "obsoleteMods": [
@@ -544,9 +545,9 @@
   "resourcePacks": [
     {
       "path": "PokotycoonResources.zip",
-      "url": "https://raw.githubusercontent.com/HongSeokminCAU/PokotycoonLauncherAssets/9ac6827114d38ae700b36169b5e8508670868e32/manifests/PokotycoonResources.zip",
-      "sha256": "322db2e255268251483791cefa5a0dde90363a0c93a721c0c4d8bc6d9abd8841",
-      "size": 16445541,
+      "url": "https://raw.githubusercontent.com/HongSeokminCAU/PokotycoonLauncherAssets/162e044356471683d5557efe15f317e4e2dfb350/manifests/PokotycoonResources.zip",
+      "sha256": "fe5e38f5d8c373a9c8c3c9f62d005e226c5bf4310ea155964e9c7788e5f40731",
+      "size": 16493990,
       "required": true,
       "alwaysSelected": true,
       "incompatible": false

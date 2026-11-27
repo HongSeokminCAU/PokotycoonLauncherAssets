@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.24-winter-rogue-easel",
+  "version": "2026.11.28-cosmetics-story",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026112401,
-  "issuedAtUtc": "2026-11-24T04:59:47Z",
+  "sequence": 2026112801,
+  "issuedAtUtc": "2026-11-27T15:39:26Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "1인칭에서 본인 등·날개·퍼 케이프 및 착용 보조손 장식의 시야 가림 개선. F5·다른 플레이어·실제 도구·해금권·기존 겉날개/글꼴/UI 유지. 음악 복구 보완 연출 모드를 통합 클라이언트에 내장(별도 중복 설치 금지). 연출 사용에는 대응 로비 모드/GymNPC 필요. 자동 런처만 갱신; 서버·수동설치·CurseForge·리소스팩 변경 없음. 실게임 렌더링 검증 미완료.",
     "겨울 치장 4세트·도끼 4종 추가(기존 님피아 머리띠·치장·글꼴 유지). 포코로그 보상 최대 9장 잘림 개선·모은 효과 보기, 이젤 0.2.4 확대 UI 배치 개선. 포켓몬별 누적·이젤 보관함·지도 수정은 대응 서버 패치 적용 후 사용. 기존 챔피언·글꼴 크래시 수정·다른 모드 보존. 자동 런처만 갱신; 운영 서버·수동설치·CurseForge팩 변경 없음. 실제 게임 착용 및 Windows 셰이더팩 조합은 미검증.",
     "세대별 챔피언 화면·업적 칭호 그림 10종, 챔피언 머리 치장 9종·NPC 스킨 9장 추가. 대응 서버 적용 후 이용(5·7세대 NPC 스킨 임시). 기존 겉날개 숨기기·글꼴 크래시 수정·모든 다른 모드와 리소스 유지. 리소스는 커밋 고정 원본 URL 사용. 자동 런처만 갱신; 서버·수동설치팩 변경 없음.",
     "치장 스위치를 겉날개 숨기기로 변경. 본인 화면도 겉날개 모델만 숨기며 등 치장·비행·실제 아이템은 유지. 위키·명령어·검색 설명을 같은 의미로 수정. 대응 서버 패치 적용 후 사용. 기존 모드·리소스·글꼴 수정 유지.",
@@ -192,9 +193,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-winter-rogue-easel-20261124/PokotycoonClient-1.1.13.jar",
-      "sha256": "0469cc40803be0e9bff9d072413066e7683edff06d5435a28ccbfa83311f9c9f",
-      "size": 139255107,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-cosmetics-story-20261128/PokotycoonClient-1.1.13.jar",
+      "sha256": "541b8c4577cb639c9022093524d54b6796bafff6e239859292234b862966a046",
+      "size": 148945439,
       "required": true
     },
     {
@@ -227,9 +228,9 @@
     },
     {
       "path": "pokotycoon_ui-0.1.1.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-elytra-hide-20261119/pokotycoon_ui-0.1.1.jar",
-      "sha256": "29a1f6d79cd4c0d53539437c6636da1963ae3a7cf07a8fd6034c00fbcfca310c",
-      "size": 4833847,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-cosmetics-story-20261128/pokotycoon_ui-0.1.1.jar",
+      "sha256": "a208e81f994116a81b56b3535b6d4cb7780e7de152a4fc568657471ba45c7de9",
+      "size": 4837654,
       "required": true
     },
     {

@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.28-story-busfix",
+  "version": "2026.11.28-story-rollback",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026112802,
-  "issuedAtUtc": "2026-11-27T15:53:12Z",
+  "sequence": 2026112803,
+  "issuedAtUtc": "2026-11-27T16:00:18Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "긴급 롤백: 연출 모드 추가 전 정상 배포 클라이언트로 복구. 연출 모드 제거, 기존 치장 UI·다른 모드·리소스 유지. 게임과 런처를 완전히 종료 후 다시 실행하세요.",
     "긴급 시작 오류 수정: 연출 모드 SoundEngineLoadEvent의 잘못된 이벤트 버스 등록 수정. 실제 NeoForge에서 이전 오류 재현 및 수정본 초기화 검사 통과. 기존 1인칭 치장·음악·다른 모드·리소스팩 유지. 게임과 런처를 완전히 종료 후 다시 실행하세요.",
     "1인칭에서 본인 등·날개·퍼 케이프 및 착용 보조손 장식의 시야 가림 개선. F5·다른 플레이어·실제 도구·해금권·기존 겉날개/글꼴/UI 유지. 음악 복구 보완 연출 모드를 통합 클라이언트에 내장(별도 중복 설치 금지). 연출 사용에는 대응 로비 모드/GymNPC 필요. 자동 런처만 갱신; 서버·수동설치·CurseForge·리소스팩 변경 없음. 실게임 렌더링 검증 미완료.",
     "겨울 치장 4세트·도끼 4종 추가(기존 님피아 머리띠·치장·글꼴 유지). 포코로그 보상 최대 9장 잘림 개선·모은 효과 보기, 이젤 0.2.4 확대 UI 배치 개선. 포켓몬별 누적·이젤 보관함·지도 수정은 대응 서버 패치 적용 후 사용. 기존 챔피언·글꼴 크래시 수정·다른 모드 보존. 자동 런처만 갱신; 운영 서버·수동설치·CurseForge팩 변경 없음. 실제 게임 착용 및 Windows 셰이더팩 조합은 미검증.",
@@ -194,9 +195,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-story-busfix-20261128/PokotycoonClient-1.1.13.jar",
-      "sha256": "461ac7d56725b138863b521e57909e6160d5b37e441c31fbfb8265c42f88e66f",
-      "size": 148945441,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-winter-rogue-easel-20261124/PokotycoonClient-1.1.13.jar",
+      "sha256": "0469cc40803be0e9bff9d072413066e7683edff06d5435a28ccbfa83311f9c9f",
+      "size": 139255107,
       "required": true
     },
     {

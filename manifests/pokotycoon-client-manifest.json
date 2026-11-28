@@ -1,17 +1,18 @@
 {
   "schemaVersion": 1,
   "packId": "pixelmon-classic",
-  "version": "2026.11.28-story-rollback",
+  "version": "2026.11.29-webgui-address",
   "title": "PokoTycoon Client Pack",
   "minecraftVersion": "1.21.1",
   "neoForgeVersion": "21.1.230",
   "mandatory": true,
   "deleteUnlisted": false,
-  "sequence": 2026112803,
-  "issuedAtUtc": "2026-11-27T16:00:18Z",
+  "sequence": 2026112901,
+  "issuedAtUtc": "2026-11-28T15:18:33Z",
   "signatureAlgorithm": "",
   "signature": "",
   "changelog": [
+    "WebGUI 주소 처리 정규식 오류 수정. 수동설치에서 사용자 동작 확인한 동일 클라이언트. 스토리 모드 제외 상태 유지, 기존 치장 UI·악기·음악·리소스 및 다른 모드 보존. 게임과 런처를 완전히 종료한 뒤 다시 실행하세요.",
     "긴급 롤백: 연출 모드 추가 전 정상 배포 클라이언트로 복구. 연출 모드 제거, 기존 치장 UI·다른 모드·리소스 유지. 게임과 런처를 완전히 종료 후 다시 실행하세요.",
     "긴급 시작 오류 수정: 연출 모드 SoundEngineLoadEvent의 잘못된 이벤트 버스 등록 수정. 실제 NeoForge에서 이전 오류 재현 및 수정본 초기화 검사 통과. 기존 1인칭 치장·음악·다른 모드·리소스팩 유지. 게임과 런처를 완전히 종료 후 다시 실행하세요.",
     "1인칭에서 본인 등·날개·퍼 케이프 및 착용 보조손 장식의 시야 가림 개선. F5·다른 플레이어·실제 도구·해금권·기존 겉날개/글꼴/UI 유지. 음악 복구 보완 연출 모드를 통합 클라이언트에 내장(별도 중복 설치 금지). 연출 사용에는 대응 로비 모드/GymNPC 필요. 자동 런처만 갱신; 서버·수동설치·CurseForge·리소스팩 변경 없음. 실게임 렌더링 검증 미완료.",
@@ -195,9 +196,9 @@
     },
     {
       "path": "PokotycoonClient-1.1.13.jar",
-      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-winter-rogue-easel-20261124/PokotycoonClient-1.1.13.jar",
-      "sha256": "0469cc40803be0e9bff9d072413066e7683edff06d5435a28ccbfa83311f9c9f",
-      "size": 139255107,
+      "url": "https://github.com/HongSeokminCAU/PokotycoonLauncherAssets/releases/download/pokotycoon-webgui-address-20261129/PokotycoonClient-1.1.13.jar",
+      "sha256": "b1462b0a413366acadb278912281394da1fdd3acd5fef67d580bd535f978b867",
+      "size": 139255104,
       "required": true
     },
     {
